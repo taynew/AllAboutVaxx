@@ -1,0 +1,1676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2MC-Mw-KLK">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AllAboutVaxxTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TEW-wc-tbH">
+                                <rect key="frame" x="54" y="95.666666666666686" width="120" height="111"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="Liberary" title="" buttonSize="small"/>
+                                <connections>
+                                    <segue destination="ahr-SZ-TIm" kind="show" id="rDW-UF-k7F"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zKk-8w-KS4">
+                                <rect key="frame" x="252" y="95.666666666666686" width="124" height="111"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="111" id="fE6-qO-4gh"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="Date" title="">
+                                    <color key="baseBackgroundColor" systemColor="linkColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="aRl-8k-4nI" kind="show" id="VNb-iX-waI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ue-3F-LM1">
+                                <rect key="frame" x="52" y="256.66666666666669" width="124" height="111"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="111" id="Fjk-aG-sq0"/>
+                                </constraints>
+                                <buttonConfiguration key="configuration" style="gray" image="Hospital Sign" title="">
+                                    <color key="baseBackgroundColor" systemColor="linkColor"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ux3-un-w8s">
+                                <rect key="frame" x="252" y="256.66666666666669" width="124" height="111"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="111" id="uOu-LN-gm9"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="News" title=""/>
+                                <connections>
+                                    <segue destination="LUs-Tm-YtJ" kind="show" id="nzp-PH-aFF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q9v-fm-40Z">
+                                <rect key="frame" x="60" y="460" width="24" height="14"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o8G-ox-4dO">
+                                <rect key="frame" x="52" y="417.66666666666669" width="124" height="111.00000000000006"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="111" id="lBd-ck-lRY"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="Record" title=""/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3fm-IO-Ykl">
+                                <rect key="frame" x="252" y="417.66666666666669" width="124" height="111.00000000000006"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="124" id="7EY-FU-9mk"/>
+                                    <constraint firstAttribute="height" constant="111" id="T4T-Bz-sdC"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="Check" title=""/>
+                                <connections>
+                                    <segue destination="orl-CA-Azr" kind="show" id="Q0n-Oq-XYk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Tr-we-ovn">
+                                <rect key="frame" x="52" y="578.66666666666663" width="124" height="111"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="111" id="1R7-kd-toF"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="FAQ" title=""/>
+                                <connections>
+                                    <segue destination="Ib3-ht-W6A" kind="show" id="WlQ-jx-feV"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" AllAboutVaxx Menu  " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pIu-0d-GPp">
+                                <rect key="frame" x="82.666666666666686" y="10" width="263" height="35.666666666666664"/>
+                                <color key="backgroundColor" systemColor="labelColor"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="29"/>
+                                <color key="textColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" systemColor="labelColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="pIu-0d-GPp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0II-Dn-pKd"/>
+                            <constraint firstItem="6Tr-we-ovn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-100" id="1rN-re-Jvp"/>
+                            <constraint firstItem="Ux3-un-w8s" firstAttribute="top" secondItem="zKk-8w-KS4" secondAttribute="bottom" constant="50" id="4YP-Qb-ARC"/>
+                            <constraint firstItem="TEW-wc-tbH" firstAttribute="top" secondItem="pIu-0d-GPp" secondAttribute="bottom" constant="50" id="GHl-s5-S1E"/>
+                            <constraint firstItem="TEW-wc-tbH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-100" id="IKL-1j-QeO"/>
+                            <constraint firstItem="3fm-IO-Ykl" firstAttribute="top" secondItem="Ux3-un-w8s" secondAttribute="bottom" constant="50" id="KpF-0W-b03"/>
+                            <constraint firstItem="o8G-ox-4dO" firstAttribute="top" secondItem="4ue-3F-LM1" secondAttribute="bottom" constant="50" id="KzK-gX-3qW"/>
+                            <constraint firstItem="Ux3-un-w8s" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="100" id="MAt-jg-CL4"/>
+                            <constraint firstItem="zKk-8w-KS4" firstAttribute="top" secondItem="pIu-0d-GPp" secondAttribute="bottom" constant="50" id="NEW-e5-Du3"/>
+                            <constraint firstItem="3fm-IO-Ykl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="100" id="Pil-Eh-ACZ"/>
+                            <constraint firstItem="Q9v-fm-40Z" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="W1Y-Mg-ZCz"/>
+                            <constraint firstItem="4ue-3F-LM1" firstAttribute="top" secondItem="TEW-wc-tbH" secondAttribute="bottom" constant="50" id="XQT-2x-dux"/>
+                            <constraint firstItem="3fm-IO-Ykl" firstAttribute="leading" secondItem="Q9v-fm-40Z" secondAttribute="trailing" constant="168" id="YCi-5A-hoL"/>
+                            <constraint firstItem="pIu-0d-GPp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="ZhB-mg-gYz"/>
+                            <constraint firstItem="o8G-ox-4dO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-100" id="ap3-NF-ZtV"/>
+                            <constraint firstItem="zKk-8w-KS4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="100" id="cOe-Pa-xfe"/>
+                            <constraint firstItem="4ue-3F-LM1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-100" id="k1N-lH-CH3"/>
+                            <constraint firstItem="6Tr-we-ovn" firstAttribute="top" secondItem="o8G-ox-4dO" secondAttribute="bottom" constant="50" id="m7q-Wb-azN"/>
+                            <constraint firstItem="Q9v-fm-40Z" firstAttribute="top" secondItem="4ue-3F-LM1" secondAttribute="bottom" constant="92.333333333333314" id="uTJ-Cv-X5e"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="qkY-lO-KnP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="179.71014492753625" y="-802.23214285714278"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="waY-DV-7tJ">
+            <objects>
+                <viewController id="RNe-Cp-XFV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qT0-fD-K55">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="4946"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ume-8P-kxv">
+                                <rect key="frame" x="37" y="340" width="73" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Cause">
+                                        <attributes>
+                                            <font key="NSFont" size="24" name="Helvetica-Bold"/>
+                                            <font key="NSOriginalFont" size="24" name="Helvetica-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zTm-oT-y5Q">
+                                <rect key="frame" x="37" y="139" width="148" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Overview">
+                                        <attributes>
+                                            <font key="NSFont" size="24" name="Helvetica-Bold"/>
+                                            <font key="NSOriginalFont" size="24" name="Helvetica-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="u1V-0d-SGA"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="DzK-n2-UK3"/>
+                    <size key="freeformSize" width="428" height="5000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s8c-Zd-WxC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4978.0373831775696" y="-1484.4492440604752"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cqc-zU-pw8">
+            <objects>
+                <viewController id="ajz-9z-F2q" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="scQ-zM-hIc">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="4946"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h37-p9-gef">
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="4946"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jp7-4M-OVJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="428" height="5000"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jq9-DA-S8R">
+                                                <rect key="frame" x="36" y="73" width="191" height="62"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Overview">
+                                                        <attributes>
+                                                            <font key="NSFont" size="24" name="Helvetica-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnD-G3-UVQ">
+                                                <rect key="frame" x="36" y="254" width="91" height="55"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Cause">
+                                                        <attributes>
+                                                            <font key="NSFont" size="24" name="Helvetica-Bold"/>
+                                                            <font key="NSOriginalFont" size="24" name="Helvetica-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="5000" id="Q9s-PS-NIg"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="3000" id="YGR-fy-f8j"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="jp7-4M-OVJ" firstAttribute="top" secondItem="h37-p9-gef" secondAttribute="top" id="Nr4-aL-cy2"/>
+                                    <constraint firstItem="jp7-4M-OVJ" firstAttribute="top" secondItem="h37-p9-gef" secondAttribute="top" id="U2v-EM-aLU"/>
+                                    <constraint firstItem="jp7-4M-OVJ" firstAttribute="leading" secondItem="h37-p9-gef" secondAttribute="leading" id="kpI-pn-Mmr"/>
+                                    <constraint firstAttribute="bottom" secondItem="jp7-4M-OVJ" secondAttribute="bottom" id="pM4-4K-Q7b"/>
+                                    <constraint firstAttribute="trailing" secondItem="jp7-4M-OVJ" secondAttribute="trailing" id="y2P-HO-mrb"/>
+                                    <constraint firstAttribute="bottom" secondItem="jp7-4M-OVJ" secondAttribute="bottom" id="yrg-il-FNy"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vLP-l5-N5V"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="h37-p9-gef" firstAttribute="leading" secondItem="vLP-l5-N5V" secondAttribute="leading" id="JvE-Qz-hJg"/>
+                            <constraint firstItem="h37-p9-gef" firstAttribute="trailing" secondItem="vLP-l5-N5V" secondAttribute="trailing" id="RTk-2C-7Dk"/>
+                            <constraint firstItem="h37-p9-gef" firstAttribute="top" secondItem="scQ-zM-hIc" secondAttribute="top" id="Vqu-WI-NeT"/>
+                            <constraint firstAttribute="bottom" secondItem="h37-p9-gef" secondAttribute="bottom" id="mGr-SO-GKj"/>
+                            <constraint firstItem="jp7-4M-OVJ" firstAttribute="width" secondItem="scQ-zM-hIc" secondAttribute="width" id="ukI-UP-6kD"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="bT5-bz-zQ5"/>
+                    <size key="freeformSize" width="428" height="5000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O5w-gY-g3E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6623.8317757009345" y="-1485.0971922246222"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="gXp-EU-Q4C">
+            <objects>
+                <viewController id="XiP-4E-oW5" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EHo-0I-woX">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="4946"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="di5-q1-AdN">
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="4946"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wj2-vt-6rh">
+                                        <rect key="frame" x="0.0" y="0.0" width="420" height="5000"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KrI-HO-BgX">
+                                                <rect key="frame" x="27" y="52" width="179" height="95"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Overview">
+                                                        <attributes>
+                                                            <font key="NSFont" size="24" name="Helvetica-Bold"/>
+                                                            <font key="NSOriginalFont" size="24" name="Helvetica-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NYc-xB-jvJ">
+                                                <rect key="frame" x="27" y="266" width="86" height="49"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Cause">
+                                                        <attributes>
+                                                            <font key="NSFont" size="24" name="Helvetica-Bold"/>
+                                                            <font key="NSOriginalFont" size="24" name="Helvetica-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="5000" id="9Uz-aU-7JP"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Wj2-vt-6rh" firstAttribute="leading" secondItem="di5-q1-AdN" secondAttribute="leading" id="Wfw-bB-uLD"/>
+                                    <constraint firstItem="Wj2-vt-6rh" firstAttribute="top" secondItem="di5-q1-AdN" secondAttribute="top" id="fTI-Fy-xgV"/>
+                                    <constraint firstAttribute="bottom" secondItem="Wj2-vt-6rh" secondAttribute="bottom" id="uJJ-11-Slq"/>
+                                    <constraint firstAttribute="trailing" secondItem="Wj2-vt-6rh" secondAttribute="trailing" id="xXe-n4-kmk"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="h5v-KJ-ZXd"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Wj2-vt-6rh" firstAttribute="width" secondItem="EHo-0I-woX" secondAttribute="width" multiplier="0.981308" id="GvK-z6-NDQ"/>
+                            <constraint firstItem="di5-q1-AdN" firstAttribute="leading" secondItem="h5v-KJ-ZXd" secondAttribute="leading" id="O2e-rj-Fms"/>
+                            <constraint firstItem="di5-q1-AdN" firstAttribute="trailing" secondItem="h5v-KJ-ZXd" secondAttribute="trailing" id="QIh-Ko-JTd"/>
+                            <constraint firstAttribute="bottom" secondItem="di5-q1-AdN" secondAttribute="bottom" id="R3b-k2-pTR"/>
+                            <constraint firstItem="di5-q1-AdN" firstAttribute="top" secondItem="h5v-KJ-ZXd" secondAttribute="top" id="tTG-wV-WgI"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="czn-wW-eDo"/>
+                    <size key="freeformSize" width="428" height="5000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lZI-8q-vl8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7404.6728971962611" y="-1484.4492440604752"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="HWW-xi-OUR">
+            <objects>
+                <viewController id="Ypd-SW-aau" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Aqg-Xt-x21">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="4946"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vPW-1r-wMQ">
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="4946"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cks-fm-QIt">
+                                        <rect key="frame" x="0.0" y="0.0" width="428" height="5000"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4kJ-sC-U7s">
+                                                <rect key="frame" x="44" y="76" width="107" height="28"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Overview">
+                                                        <attributes>
+                                                            <font key="NSFont" size="24" name="Helvetica-Bold"/>
+                                                            <font key="NSOriginalFont" size="24" name="Helvetica-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8cO-qx-iSc">
+                                                <rect key="frame" x="44" y="255" width="73" height="40"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Cause">
+                                                        <attributes>
+                                                            <font key="NSFont" size="24" name="Helvetica-Bold"/>
+                                                            <font key="NSOriginalFont" size="24" name="Helvetica-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="5000" id="TS2-NB-I0H"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Cks-fm-QIt" secondAttribute="trailing" id="Rsx-3c-zsV"/>
+                                    <constraint firstItem="Cks-fm-QIt" firstAttribute="top" secondItem="vPW-1r-wMQ" secondAttribute="top" id="WOV-2e-eWK"/>
+                                    <constraint firstAttribute="bottom" secondItem="Cks-fm-QIt" secondAttribute="bottom" id="bjv-yX-DSx"/>
+                                    <constraint firstItem="Cks-fm-QIt" firstAttribute="leading" secondItem="vPW-1r-wMQ" secondAttribute="leading" id="tfv-hB-6Lm"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ca0-qt-hKe"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vPW-1r-wMQ" firstAttribute="leading" secondItem="ca0-qt-hKe" secondAttribute="leading" id="EJR-pR-pbk"/>
+                            <constraint firstItem="vPW-1r-wMQ" firstAttribute="trailing" secondItem="ca0-qt-hKe" secondAttribute="trailing" id="IQn-st-cvA"/>
+                            <constraint firstAttribute="bottom" secondItem="vPW-1r-wMQ" secondAttribute="bottom" id="kGU-jn-mlQ"/>
+                            <constraint firstItem="Cks-fm-QIt" firstAttribute="width" secondItem="Aqg-Xt-x21" secondAttribute="width" id="oG7-Mr-JlP"/>
+                            <constraint firstItem="vPW-1r-wMQ" firstAttribute="top" secondItem="ca0-qt-hKe" secondAttribute="top" id="xNF-ZG-iiz"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="CN0-tS-0JX"/>
+                    <size key="freeformSize" width="428" height="5000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MZK-vf-HvL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8234.5794392523367" y="-1484.4492440604752"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="w68-yT-n9d">
+            <objects>
+                <viewController id="1qk-5t-QO6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Atl-2f-gmR">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="4946"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6b3-A3-ffx">
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="4946"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ORf-7r-0Hi">
+                                        <rect key="frame" x="0.0" y="0.0" width="445" height="5000"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nDG-AW-bOf">
+                                                <rect key="frame" x="38" y="44" width="295" height="127"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Overview">
+                                                        <attributes>
+                                                            <font key="NSFont" size="24" name="Helvetica-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L8q-7k-rXh">
+                                                <rect key="frame" x="38" y="247" width="95" height="47"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Cause">
+                                                        <attributes>
+                                                            <font key="NSFont" size="24" name="Helvetica-Bold"/>
+                                                            <font key="NSOriginalFont" size="24" name="Helvetica-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="5000" id="MkX-v8-Rav"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="5000" id="N0l-kD-SJs"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="ORf-7r-0Hi" firstAttribute="top" secondItem="6b3-A3-ffx" secondAttribute="top" id="7kv-TC-5se"/>
+                                    <constraint firstItem="ORf-7r-0Hi" firstAttribute="leading" secondItem="6b3-A3-ffx" secondAttribute="leading" id="E39-N0-mYc"/>
+                                    <constraint firstItem="ORf-7r-0Hi" firstAttribute="top" secondItem="6b3-A3-ffx" secondAttribute="top" id="REv-rK-9Fl"/>
+                                    <constraint firstAttribute="bottom" secondItem="ORf-7r-0Hi" secondAttribute="bottom" id="Ug6-9e-KeV"/>
+                                    <constraint firstAttribute="bottom" secondItem="ORf-7r-0Hi" secondAttribute="bottom" id="bsd-nS-5Gh"/>
+                                    <constraint firstItem="ORf-7r-0Hi" firstAttribute="leading" secondItem="6b3-A3-ffx" secondAttribute="leading" id="j2m-Yp-Af5"/>
+                                    <constraint firstAttribute="trailing" secondItem="ORf-7r-0Hi" secondAttribute="trailing" id="tYJ-1m-UyK"/>
+                                    <constraint firstAttribute="trailing" secondItem="ORf-7r-0Hi" secondAttribute="trailing" id="v7i-dA-IQN"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="zkK-HL-yUC"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="6b3-A3-ffx" secondAttribute="bottom" id="GGn-Rq-vUW"/>
+                            <constraint firstItem="6b3-A3-ffx" firstAttribute="leading" secondItem="zkK-HL-yUC" secondAttribute="leading" id="ItT-RZ-BvY"/>
+                            <constraint firstItem="6b3-A3-ffx" firstAttribute="top" secondItem="zkK-HL-yUC" secondAttribute="top" id="M4n-0Y-wAD"/>
+                            <constraint firstItem="6b3-A3-ffx" firstAttribute="trailing" secondItem="zkK-HL-yUC" secondAttribute="trailing" id="Nfv-rC-h5O"/>
+                            <constraint firstItem="ORf-7r-0Hi" firstAttribute="width" secondItem="Atl-2f-gmR" secondAttribute="width" multiplier="1.03972" id="mJK-Br-EK1"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="1HF-NT-n0r"/>
+                    <size key="freeformSize" width="428" height="5000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zgB-AK-QNa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9019.6261682242985" y="-1485.0971922246222"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="pul-aa-gZz">
+            <objects>
+                <viewController id="ral-Sd-jej" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CBo-oR-RSg">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="4946"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ivC-1Y-3eQ">
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="4946"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JZ8-yZ-1k7">
+                                        <rect key="frame" x="0.0" y="0.0" width="428" height="5000"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tdi-H0-NZW">
+                                                <rect key="frame" x="16" y="55" width="364" height="86"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Disease : Middle East Respiratory Syndrome(MERS)">
+                                                        <attributes>
+                                                            <font key="NSFont" size="24" name="Helvetica-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D0Z-jP-YPD">
+                                                <rect key="frame" x="268" y="178" width="112" height="26"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Haneul Jang">
+                                                        <attributes>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ERX-qq-ZKa">
+                                                <rect key="frame" x="16" y="212" width="341" height="333"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Overview">
+                                                        <attributes>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="24" name="TimesNewRomanPS-BoldMT"/>
+                                                            <font key="NSOriginalFont" size="24" name="TimesNewRomanPS-BoldMT"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="3" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content"> - A viral respiratory illness caused by a coronavirus. Middle East respiratory syndrome (MERS) is a contagious, sometimes fatal respiratory illness. It's often spread through close contact with an infected person. Symptoms include fever, cough, and shortness of breath. Other symptoms may include nausea, vomiting, and diarrhea.Treatment includes rest, fluids, pain relievers, and oxygen therapy in severe cases.
+</string>
+                                                        <attributes>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="18" name="TimesNewRomanPSMT"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="3" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3OU-Zj-LmI">
+                                                <rect key="frame" x="16" y="570" width="364" height="530"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Cause">
+                                                        <attributes>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="24" name="TimesNewRomanPS-BoldMT"/>
+                                                            <font key="NSOriginalFont" size="24" name="TimesNewRomanPS-BoldMT"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="3" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content"> - Middle East respiratory syndrome is caused by the MERS coronavirus (MERS-CoV), a species with single-stranded RNA belonging to the genus betacoronavirus which is distinct from SARS coronavirus and the common-cold coronavirus. Its genomes are phylogenetically classified into two clades, Clades A and B. Early cases of MERS were of Clade A clusters (EMC/2021 and Jordan-N3/2012) while new cases are genetically different in general (Clade B). The virus grows readily on Vero cells and LLC-MK2 cells. In November 2012, Egyptian virologist Dr. Ali Zaki sent a virus sample from the first confirmed case in Saudi Arabia to virologist Ron Fouchier, a leading coronavirus researcher at the Erasmus Medical Center (EMC) in Rotterdam, the Netherlands. The second laboratory-proven case was in London, confirmed by the UK Health Protection Agency (HPA). The HPA named the virus the London1_novel CoV 2012.</string>
+                                                        <attributes>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="18" name="TimesNewRomanPSMT"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="3" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gFx-M2-Rs6">
+                                                <rect key="frame" x="16" y="1132" width="385" height="447"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Symptoms">
+                                                        <attributes>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="24" name="TimesNewRomanPS-BoldMT"/>
+                                                            <font key="NSOriginalFont" size="24" name="TimesNewRomanPS-BoldMT"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="3" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content"> - Symptoms include fever, cough, and shortness of breath. Other symptoms may include nausea, vomiting, and diarrhea.
+</string>
+                                                        <attributes>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="18" name="TimesNewRomanPSMT"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="3" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                                        <attributes>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="18" name="TimesNewRomanPSMT"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" lineHeightMultiple="1.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="People may experience:">
+                                                        <attributes>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="18" name="TimesNewRomanPSMT"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" lineHeightMultiple="1.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                            <integer key="NSUnderline" value="1"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content" base64-UTF8="YES">
+Cgo
+</string>
+                                                        <attributes>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="18" name="TimesNewRomanPSMT"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" lineHeightMultiple="1.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="Pain areas:">
+                                                        <attributes>
+                                                            <color key="NSColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="18" name="TimesNewRomanPSMT"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" lineHeightMultiple="1.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content"> in the chest
+</string>
+                                                        <attributes>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="18" name="TimesNewRomanPSMT"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" lineHeightMultiple="1.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="Whole body:">
+                                                        <attributes>
+                                                            <color key="NSColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="18" name="TimesNewRomanPSMT"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" lineHeightMultiple="1.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content"> fatigue, fever, chills, loss of appetite, or body ache
+</string>
+                                                        <attributes>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="18" name="TimesNewRomanPSMT"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" lineHeightMultiple="1.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="Gastrointestinal: ">
+                                                        <attributes>
+                                                            <color key="NSColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="18" name="TimesNewRomanPSMT"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" lineHeightMultiple="1.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content">diarrhea, nausea, or vomiting
+Nasal: congestion or sneezing
+</string>
+                                                        <attributes>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="18" name="TimesNewRomanPSMT"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" lineHeightMultiple="1.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="Also common:">
+                                                        <attributes>
+                                                            <color key="NSColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="18" name="TimesNewRomanPSMT"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" lineHeightMultiple="1.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content"> coughing, shortness of breath, headache, or sore throat
+</string>
+                                                        <attributes>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="18" name="TimesNewRomanPSMT"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" lineHeightMultiple="1.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ym1-Df-gZY">
+                                                <rect key="frame" x="25" y="1567" width="347" height="1611"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Prevention">
+                                                        <attributes>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="24" name="TimesNewRomanPS-BoldMT"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="3" tailIndent="468" lineHeightMultiple="1.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content"> - While the mechanism of spread of MERS-CoV is currently not known, based on experience with prior coronaviruses, such as SARS, the WHO currently recommends that all individuals coming into contact with MERS suspects should (in addition to standard precautions):
+
+</string>
+                                                        <attributes>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="18" name="TimesNewRomanPSMT"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="3" tailIndent="468" lineHeightMultiple="1.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content">•	Wear a medical mask
+•	Wear eye protection (i.e. goggles or a face shield)
+•	Wear a clean, non sterile, long sleeved gown; and gloves (some procedures may require sterile gloves)
+•	Perform hand hygiene before and after contact with the person and his or her surroundings and immediately after removal of personal protective equipment (PPE) 
+</string>
+                                                        <attributes>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="18" name="TimesNewRomanPSMT"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="3" paragraphSpacing="1.2" paragraphSpacingBefore="5" firstLineHeadIndent="37.200000000000003" headIndent="55.200000000000003" tailIndent="468" lineHeightMultiple="1.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops>
+                                                                    <textTab alignment="left" location="36">
+                                                                        <options/>
+                                                                    </textTab>
+                                                                </tabStops>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content">For procedures which carry a risk of aerosolization, such as intubation, the WHO recommends that care providers also:
+</string>
+                                                        <attributes>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="18" name="TimesNewRomanPSMT"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="3" paragraphSpacing="6" paragraphSpacingBefore="6" tailIndent="468" lineHeightMultiple="1.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content">•	Wear a particulate respirator and, when putting on a disposable particulate respirator, always check the seal
+•	Wear eye protection (i.e. goggles or a face shield)
+•	Wear a clean, non-sterile, long-sleeved gown and gloves (some of these procedures require sterile gloves)
+•	Wear an impermeable apron for some procedures with expected high fluid volumes that might penetrate the gown
+•	Perform procedures in an adequately ventilated room; i.e. minimum of 6 to 12 air changes per hour in facilities with a mechanically ventilated room and at least 60 liters/second/patient in facilities with natural ventilation
+•	Limit the number of persons present in the room to the absolute minimum required for the person's care and support
+•	Perform hand hygiene before and after contact with the person and his or her surroundings and after PPE removal.
+</string>
+                                                        <attributes>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="18" name="TimesNewRomanPSMT"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="3" paragraphSpacing="1.2" paragraphSpacingBefore="5" firstLineHeadIndent="18" headIndent="36" tailIndent="468" lineHeightMultiple="1.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops>
+                                                                    <textTab alignment="left" location="36">
+                                                                        <options/>
+                                                                    </textTab>
+                                                                </tabStops>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2rF-RM-fsg">
+                                                <rect key="frame" x="25" y="3152" width="355" height="475"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Treatment">
+                                                        <attributes>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="24" name="TimesNewRomanPS-BoldMT"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="3" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content"> - As of 2020, there is no specific vaccine or treatment for the disease. Using extra-corporeal membrane oxygenation (ECMO) seems to improve outcomes significantly. Neither the combination of antivirals and interferons (ribavirin + interferon alfa-2a or interferon alfa-2b) nor cortiscosteroids improved outcomes.
+</string>
+                                                        <attributes>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" metaFont="system" size="18"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="3" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YwR-9i-a30">
+                                                <rect key="frame" x="25" y="3511" width="347" height="527"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Epidemiology">
+                                                        <attributes>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="24" name="TimesNewRomanPS-BoldMT"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="3" paragraphSpacing="1.2" paragraphSpacingBefore="5" tailIndent="468" lineHeightMultiple="1.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content"> - MERS has had a relatively low population-wide reproduction number in previous outbreaks, but such outbreaks have occurred due to superspreading events. Total laboratory-confirmed cases of MERS world-wide per year have been as follows.
+</string>
+                                                        <attributes>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="18" name="TimesNewRomanPSMT"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="3" paragraphSpacing="1.2" paragraphSpacingBefore="5" tailIndent="468" lineHeightMultiple="1.5" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P8j-aC-GxT">
+                                                <rect key="frame" x="25" y="4001" width="347" height="37"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="All the sources from the CDC, WHO and NHS">
+                                                        <attributes>
+                                                            <font key="NSFont" size="18" name="TimesNewRomanPSMT"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="5000" id="WRn-xF-VWe"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="JZ8-yZ-1k7" firstAttribute="trailing" secondItem="ivC-1Y-3eQ" secondAttribute="trailing" id="3n1-MB-3P9"/>
+                                    <constraint firstItem="JZ8-yZ-1k7" firstAttribute="leading" secondItem="ivC-1Y-3eQ" secondAttribute="leading" id="RKy-el-RRl"/>
+                                    <constraint firstItem="JZ8-yZ-1k7" firstAttribute="top" secondItem="ivC-1Y-3eQ" secondAttribute="top" id="xYT-UD-irW"/>
+                                    <constraint firstAttribute="bottom" secondItem="JZ8-yZ-1k7" secondAttribute="bottom" constant="87" id="yEq-UJ-vSg"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="BHk-TI-7O1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ivC-1Y-3eQ" firstAttribute="top" secondItem="CBo-oR-RSg" secondAttribute="top" id="BXF-Wc-K9X"/>
+                            <constraint firstItem="JZ8-yZ-1k7" firstAttribute="width" secondItem="CBo-oR-RSg" secondAttribute="width" id="Ci9-ZG-Cw7"/>
+                            <constraint firstItem="ivC-1Y-3eQ" firstAttribute="trailing" secondItem="BHk-TI-7O1" secondAttribute="trailing" id="hlB-ZH-Jaa"/>
+                            <constraint firstAttribute="bottom" secondItem="ivC-1Y-3eQ" secondAttribute="bottom" id="lVb-sl-92U"/>
+                            <constraint firstItem="ivC-1Y-3eQ" firstAttribute="leading" secondItem="BHk-TI-7O1" secondAttribute="leading" id="lzA-KI-c5p"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="zNY-Q5-RH3"/>
+                    <size key="freeformSize" width="428" height="5000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZ9-e7-435" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5807" y="-1484"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="WgW-KQ-fOe">
+            <objects>
+                <viewController id="ahr-SZ-TIm" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Rv2-jQ-GPD">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BtO-q6-sZT">
+                                <rect key="frame" x="37" y="32" width="354" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="354" id="72J-FU-Ib9"/>
+                                    <constraint firstAttribute="height" constant="46" id="NSb-ZP-oR1"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Library">
+                                        <attributes>
+                                            <font key="NSFont" size="40" name="Helvetica-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cBm-vO-7zj">
+                                <rect key="frame" x="37" y="112" width="355" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="355" id="aRl-Jx-XI6"/>
+                                    <constraint firstAttribute="height" constant="60" id="i2k-nc-iHb"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Covid - 19 Vaccine">
+                                            <attributes>
+                                                <font key="NSFont" size="13" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="RNe-Cp-XFV" kind="show" id="hQB-uZ-cOo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wsp-MT-xgL">
+                                <rect key="frame" x="37" y="301" width="355" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Tax-WJ-MmF"/>
+                                    <constraint firstAttribute="width" constant="355" id="YdR-YF-2Gj"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Covid - 19 Vaccine"/>
+                                <connections>
+                                    <segue destination="ajz-9z-F2q" kind="show" id="fpE-vq-5yW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TuX-56-2x7">
+                                <rect key="frame" x="37" y="405" width="355" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="355" id="gBm-9n-vCj"/>
+                                    <constraint firstAttribute="height" constant="60" id="v6u-1h-ndM"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Covid - 19 Vaccine"/>
+                                <connections>
+                                    <segue destination="XiP-4E-oW5" kind="show" id="4ZD-Qz-s6I"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kDD-0G-2hj">
+                                <rect key="frame" x="37" y="507" width="355" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="hIn-vr-RhS"/>
+                                    <constraint firstAttribute="width" constant="355" id="iK1-RR-DTK"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Covid - 19 Vaccine"/>
+                                <connections>
+                                    <segue destination="Ypd-SW-aau" kind="show" id="KwR-Ql-WgG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8D4-rl-fOr">
+                                <rect key="frame" x="37" y="607" width="355" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="355" id="7nJ-uQ-drK"/>
+                                    <constraint firstAttribute="height" constant="55" id="fSv-Jt-nfb"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Covid - 19 Vaccine"/>
+                                <connections>
+                                    <segue destination="1qk-5t-QO6" kind="show" id="n7K-qK-dhb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uvT-Oo-gqv">
+                                <rect key="frame" x="37" y="208" width="355" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="rjb-2n-GtK"/>
+                                    <constraint firstAttribute="width" constant="355" id="zPP-DC-Wbh"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="MERS"/>
+                                <connections>
+                                    <segue destination="ral-Sd-jej" kind="show" id="3AA-nE-fDw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="GV4-fC-Bvu"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cBm-vO-7zj" firstAttribute="top" secondItem="BtO-q6-sZT" secondAttribute="bottom" constant="34" id="2ax-EU-cWo"/>
+                            <constraint firstItem="wsp-MT-xgL" firstAttribute="top" secondItem="uvT-Oo-gqv" secondAttribute="bottom" constant="33" id="4DD-Cn-4V7"/>
+                            <constraint firstItem="GV4-fC-Bvu" firstAttribute="trailing" secondItem="cBm-vO-7zj" secondAttribute="trailing" constant="36" id="51L-Ot-CmS"/>
+                            <constraint firstItem="8D4-rl-fOr" firstAttribute="top" secondItem="kDD-0G-2hj" secondAttribute="bottom" constant="40" id="BPO-9I-ETW"/>
+                            <constraint firstItem="TuX-56-2x7" firstAttribute="top" secondItem="wsp-MT-xgL" secondAttribute="bottom" constant="44" id="D0C-8n-i3S"/>
+                            <constraint firstItem="BtO-q6-sZT" firstAttribute="leading" secondItem="GV4-fC-Bvu" secondAttribute="leading" constant="37" id="Den-Le-MiO"/>
+                            <constraint firstItem="GV4-fC-Bvu" firstAttribute="trailing" secondItem="8D4-rl-fOr" secondAttribute="trailing" constant="36" id="EAn-ck-fia"/>
+                            <constraint firstItem="GV4-fC-Bvu" firstAttribute="trailing" secondItem="kDD-0G-2hj" secondAttribute="trailing" constant="36" id="G7x-HL-uD4"/>
+                            <constraint firstItem="wsp-MT-xgL" firstAttribute="leading" secondItem="GV4-fC-Bvu" secondAttribute="leading" constant="37" id="IDX-EE-VMr"/>
+                            <constraint firstItem="GV4-fC-Bvu" firstAttribute="trailing" secondItem="wsp-MT-xgL" secondAttribute="trailing" constant="36" id="Ib8-YS-4OV"/>
+                            <constraint firstItem="TuX-56-2x7" firstAttribute="leading" secondItem="GV4-fC-Bvu" secondAttribute="leading" constant="37" id="KbM-dl-A7o"/>
+                            <constraint firstItem="kDD-0G-2hj" firstAttribute="top" secondItem="TuX-56-2x7" secondAttribute="bottom" constant="42" id="L1o-hM-04V"/>
+                            <constraint firstItem="BtO-q6-sZT" firstAttribute="top" secondItem="GV4-fC-Bvu" secondAttribute="top" constant="32" id="Tkb-5b-EYY"/>
+                            <constraint firstItem="8D4-rl-fOr" firstAttribute="leading" secondItem="GV4-fC-Bvu" secondAttribute="leading" constant="37" id="Tuo-Fg-IDf"/>
+                            <constraint firstItem="uvT-Oo-gqv" firstAttribute="top" secondItem="cBm-vO-7zj" secondAttribute="bottom" constant="36" id="bdW-RD-mWK"/>
+                            <constraint firstItem="kDD-0G-2hj" firstAttribute="leading" secondItem="GV4-fC-Bvu" secondAttribute="leading" constant="37" id="izc-vh-vBO"/>
+                            <constraint firstItem="uvT-Oo-gqv" firstAttribute="leading" secondItem="GV4-fC-Bvu" secondAttribute="leading" constant="37" id="meN-sn-Y6u"/>
+                            <constraint firstItem="GV4-fC-Bvu" firstAttribute="trailing" secondItem="BtO-q6-sZT" secondAttribute="trailing" constant="37" id="mh4-qo-dOz"/>
+                            <constraint firstItem="cBm-vO-7zj" firstAttribute="leading" secondItem="GV4-fC-Bvu" secondAttribute="leading" constant="37" id="nDM-n2-wfl"/>
+                            <constraint firstItem="GV4-fC-Bvu" firstAttribute="trailing" secondItem="uvT-Oo-gqv" secondAttribute="trailing" constant="36" id="uDZ-Vl-bLG"/>
+                            <constraint firstItem="GV4-fC-Bvu" firstAttribute="trailing" secondItem="TuX-56-2x7" secondAttribute="trailing" constant="36" id="wf3-h4-7o5"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="5NX-2f-tDY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Ru-jQ-Wef" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1146.7289719626167" y="-802.80777537796985"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ZiR-Sp-ro8">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2MC-Mw-KLK" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="EVB-E2-tLe">
+                        <rect key="frame" x="0.0" y="44" width="428" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="KPv-Xi-iyA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c2S-VF-rAt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-730.43478260869574" y="-802.23214285714278"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="o8t-Sd-zUh">
+            <objects>
+                <viewController id="aRl-8k-4nI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="f3A-0K-1HS">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is the date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6jV-ex-iiM">
+                                <rect key="frame" x="149" y="438" width="116" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Xg0-gT-iFL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="e1v-xQ-yNX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bBg-4o-fvd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2045" y="-802"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="FfB-FK-mnk">
+            <objects>
+                <viewController id="LUs-Tm-YtJ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TqF-ch-kDc">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is the news place" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uB0-Qw-Nuk">
+                                <rect key="frame" x="130" y="438" width="168" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="KAO-3W-Njf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dls-tE-2uh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IEn-Ui-KVV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3954" y="-802"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ZVf-0Q-gpc">
+            <objects>
+                <viewController id="E1G-Sq-nuK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Aq1-Ma-NtM">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="2962"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fdq-2J-MwG">
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="2962"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8YI-9L-Egl">
+                                        <rect key="frame" x="0.0" y="0.0" width="428" height="3070"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Who should not be vaccinated against COVID-19?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gFS-Iu-Xgs">
+                                                <rect key="frame" x="5" y="1127" width="360" height="59"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Should I be vaccinated if I have had COVID-19?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V0I-IX-prO">
+                                                <rect key="frame" x="0.0" y="1592" width="357" height="51"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fTX-Wh-Hc7">
+                                                <rect key="frame" x="14" y="1216" width="350" height="347"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">There are just a few circumstances in which someone should not be vaccinated, however you should not be vaccinated if:
+
+1. You have a history of severe allergic reactions/anaphylaxis to any of the COVID-19 vaccine's ingredients, and you want to avoid any potential side effects.
+2. On the day of your immunization appointment, you have a temperature of more than 38.5°C. Put it off till you're feeling better.
+3. You have COVID-19, either proven or suspected. Wait until your mandatory isolation period has ended and your acute symptoms have subsided before getting vaccinated.</mutableString>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What vaccines are there against COVID-19?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k6x-ot-RLK">
+                                                <rect key="frame" x="0.0" y="8" width="379" height="52"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQX-19-wbm">
+                                                <rect key="frame" x="14" y="68" width="365" height="282"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">WHO has approved a number of COVID-19 vaccines for usage (given Emergency Use Listing). The first mass vaccination campaign began in early December 2020, and the COVID-19 dashboard displays the number of immunization doses provided on a daily basis.
+
+</string>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o3Q-QH-j4P">
+                                                <rect key="frame" x="14" y="435" width="365" height="311"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">It seems to be possible that getting vaccinated will save your life. COVID-19 vaccinations offer excellent protection from major illness, hospitalization, and death. There's also some evidence that getting vaccinated reduces your chances of spreading the virus to others, so your decision to receive the vaccine protects others around you.</string>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Who should get vaccinated against COVID-19?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZUQ-gu-Evk">
+                                                <rect key="frame" x="0.0" y="754" width="394" height="56"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NyE-ff-Yha">
+                                                <rect key="frame" x="14" y="839" width="350" height="249"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">While vaccine supplies are limited, the WHO recommends that persons who are most at risk of contracting COVID-19 be vaccinated first. This includes people who are more prone to develop severe disease if infected (the elderly and those with pre-existing medical issues), as well as those who are more likely to be exposed to the virus (such as health workers). Pregnant women are at a higher risk of serious illness and preterm birth if they are infected with COVID-19, hence the WHO recommends that they be vaccinated after the first priority groups have been vaccinated.</mutableString>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What are the benefits of getting vaccinated?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rdl-Fk-iWH">
+                                                <rect key="frame" x="14" y="358" width="375" height="69"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oNS-JK-I8G">
+                                                <rect key="frame" x="14" y="1651" width="357" height="348"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Yes. Even if you've had COVID-19 before, you should be vaccinated. The level of protection provided by COVID-19 varies substantially from person to person. People's immunity is continuously high after being vaccinated following a natural infection. Even if you have had COVID-19, getting vaccinated increases your chances of being protected for longer.</string>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="3070" id="6xq-RU-x6J"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="8YI-9L-Egl" secondAttribute="bottom" id="Pn0-Ok-eg6"/>
+                                    <constraint firstItem="8YI-9L-Egl" firstAttribute="top" secondItem="Fdq-2J-MwG" secondAttribute="top" id="YMM-k4-nUp"/>
+                                    <constraint firstItem="8YI-9L-Egl" firstAttribute="leading" secondItem="Fdq-2J-MwG" secondAttribute="leading" id="Zpu-Uc-PVL"/>
+                                    <constraint firstAttribute="trailing" secondItem="8YI-9L-Egl" secondAttribute="trailing" id="wp9-dJ-Tc9"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="I3L-im-zqo"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Fdq-2J-MwG" secondAttribute="bottom" id="Rns-QF-k9c"/>
+                            <constraint firstItem="8YI-9L-Egl" firstAttribute="width" secondItem="Aq1-Ma-NtM" secondAttribute="width" id="abx-ty-Zph"/>
+                            <constraint firstItem="Fdq-2J-MwG" firstAttribute="trailing" secondItem="I3L-im-zqo" secondAttribute="trailing" id="e31-QM-iBu"/>
+                            <constraint firstItem="Fdq-2J-MwG" firstAttribute="leading" secondItem="I3L-im-zqo" secondAttribute="leading" id="eav-6D-ytN"/>
+                            <constraint firstItem="Fdq-2J-MwG" firstAttribute="top" secondItem="I3L-im-zqo" secondAttribute="top" id="kgF-BT-Y51"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="9z2-Q6-nJg"/>
+                    <size key="freeformSize" width="428" height="3016"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wtm-9i-gfM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2971.9626168224299" y="-107.55939524838014"/>
+        </scene>
+        <!--Health ScreeningVC-->
+        <scene sceneID="ykc-hH-eSp">
+            <objects>
+                <viewController id="9WB-Y0-GSv" customClass="HealthScreeningVC" customModule="AllAboutVaxxTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yHo-5D-bqX">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mj7-La-IqJ">
+                                <rect key="frame" x="39" y="148" width="351" height="244"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qCK-o2-x5t" userLabel="2">
+                                <rect key="frame" x="93" y="586" width="241" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" label="2"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Yes"/>
+                                <connections>
+                                    <action selector="answer:" destination="9WB-Y0-GSv" eventType="touchUpInside" id="SkK-2b-O5L"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZfH-V9-Mvf" userLabel="1">
+                                <rect key="frame" x="93" y="493" width="241" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" label="1"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="No"/>
+                                <connections>
+                                    <action selector="answer:" destination="9WB-Y0-GSv" eventType="touchUpInside" id="9h9-O6-kMv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ony-bf-NqZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="EeC-tX-Dp9"/>
+                    <connections>
+                        <outlet property="question" destination="mj7-La-IqJ" id="388-gq-2ge"/>
+                        <segue destination="cB4-Cn-cEf" kind="show" identifier="results" id="R7N-P2-oSI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uf7-g4-7OG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-318.22429906542055" y="-89.416846652267822"/>
+        </scene>
+        <!--Result Screen View Controller-->
+        <scene sceneID="gh2-NC-hhB">
+            <objects>
+                <viewController id="cB4-Cn-cEf" customClass="ResultScreenViewController" customModule="AllAboutVaxxTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8qZ-Lt-5eA">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1EI-Mg-s0g">
+                                <rect key="frame" x="56" y="338" width="317" height="137"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="egb-B1-82R">
+                                <rect key="frame" x="69" y="148" width="290" height="182"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ORw-YB-hX1">
+                                <rect key="frame" x="25" y="439" width="378" height="399"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CEx-FB-Fj6">
+                                <rect key="frame" x="124" y="784" width="180" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Restart the Quiz"/>
+                                <connections>
+                                    <segue destination="orl-CA-Azr" kind="show" id="Z9q-s2-a3E"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Mj6-44-4Dc"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="A2D-JB-yFz"/>
+                    <connections>
+                        <outlet property="HeathScreeningCheck" destination="egb-B1-82R" id="r5d-8e-v3b"/>
+                        <outlet property="QuizResult" destination="ORw-YB-hX1" id="a7N-IQ-Pil"/>
+                        <outlet property="labeling" destination="1EI-Mg-s0g" id="gOu-7g-kIm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pbb-Oi-nba" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="403.73831775700933" y="-108.20734341252701"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vi2-C2-Nnd">
+            <objects>
+                <viewController id="Ib3-ht-W6A" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hVN-oy-VPM">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iev-My-Wnv">
+                                <rect key="frame" x="146" y="300" width="136" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="COVID - 19 FAQS"/>
+                                <connections>
+                                    <segue destination="gDp-xv-IST" kind="show" id="gCC-f5-ldZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ljv-93-aZJ">
+                                <rect key="frame" x="126" y="487" width="177" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Common Vaccine FAQS"/>
+                                <connections>
+                                    <segue destination="E1G-Sq-nuK" kind="show" id="gOf-Js-Yux"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0ew-J9-h2k"/>
+                        <color key="backgroundColor" systemColor="labelColor"/>
+                        <constraints>
+                            <constraint firstItem="iev-My-Wnv" firstAttribute="top" secondItem="0ew-J9-h2k" secondAttribute="top" constant="300" id="FUp-UE-zUS"/>
+                            <constraint firstItem="iev-My-Wnv" firstAttribute="centerX" secondItem="hVN-oy-VPM" secondAttribute="centerX" id="cob-F5-wI9"/>
+                            <constraint firstItem="Ljv-93-aZJ" firstAttribute="top" secondItem="iev-My-Wnv" secondAttribute="bottom" constant="30" id="dtM-IE-lHQ"/>
+                            <constraint firstItem="Ljv-93-aZJ" firstAttribute="centerX" secondItem="hVN-oy-VPM" secondAttribute="centerX" id="pKh-cM-pc1"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="UQI-Jl-zfY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AvA-lf-FdN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1122" y="-67"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Mss-7i-ONy">
+            <objects>
+                <viewController id="fp6-f5-a1P" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3P9-Ut-TI2">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="47X-eR-TzQ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Mh0-9R-bGN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EwM-sV-z6S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1947" y="-44"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Wun-im-9Ee">
+            <objects>
+                <viewController id="gDp-xv-IST" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bbN-F6-qSt">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="2946"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Hn-zJ-TIo">
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="2946"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LIy-td-UNR">
+                                        <rect key="frame" x="0.0" y="0.0" width="428" height="3070"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is COVID-19?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NOO-cc-4Ci">
+                                                <rect key="frame" x="129.33333333333331" y="20" width="169.33333333333331" height="24"/>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vNL-KR-Y5N">
+                                                <rect key="frame" x="39" y="64" width="350" height="300"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="350" id="HMj-5q-3oT"/>
+                                                    <constraint firstAttribute="height" constant="300" id="MxT-Z6-XXB"/>
+                                                </constraints>
+                                                <string key="text">COVID-19 is a disease caused by a virus called SARS-CoV-2. Most people with COVID-19 have mild symptoms, but some people can become severely ill. Although most people with COVID-19 get better within weeks of illness, some people experience post-COVID conditions. Post-COVID conditions are a wide range of new, returning, or ongoing health problems people can experience more than four weeks after first being infected with the virus that causes COVID-19. Older people and those who have certain underlying medical conditions are more likely to get severely ill from COVID-19. Vaccines against COVID-19 are safe and effective.
+
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How can I prevent COVID-19?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uUC-Xf-rUk">
+                                                <rect key="frame" x="39" y="384" width="350" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="350" id="D9T-FC-dQL"/>
+                                                    <constraint firstAttribute="height" constant="40" id="K5H-ok-26s"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ve6-Fj-dSt">
+                                                <rect key="frame" x="39" y="444" width="350" height="210"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="350" id="JnL-3S-WLa"/>
+                                                    <constraint firstAttribute="height" constant="210" id="qeV-o1-Tsn"/>
+                                                </constraints>
+                                                <string key="text">The best way to prevent illness is to avoid being exposed to the virus. The CDC recommends everyday preventive actions to help prevent the spread of respiratory diseases. They include: 
+1.Wash your hands
+2.Cover your mouth and nose
+3.Get the COVID-19 vaccine 
+4.Follow CDC guidance
+5. </string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XMO-OG-qY1">
+                                                <rect key="frame" x="39" y="674" width="350" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="0ka-6U-Fgi"/>
+                                                    <constraint firstAttribute="width" constant="350" id="Iz8-0M-9sv"/>
+                                                </constraints>
+                                                <string key="text">How long is someone COVID-19 
+infectious?
+</string>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NRY-QF-4hl">
+                                                <rect key="frame" x="39" y="774" width="350" height="150"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="350" id="aFE-QX-Zh2"/>
+                                                    <constraint firstAttribute="height" constant="150" id="u3J-or-CFR"/>
+                                                </constraints>
+                                                <string key="text">Infectiousness peaks around one day before symptom onset and declines within a week of symptom onset, with an average period of infectiousness and risk of transmission between 2-3 days before and 8 days after symptom onset.
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tsm-cM-oTJ">
+                                                <rect key="frame" x="39" y="944" width="350" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="350" id="XYe-45-2E8"/>
+                                                    <constraint firstAttribute="height" constant="80" id="vpO-cz-DdD"/>
+                                                </constraints>
+                                                <string key="text">How long does it take to recover 
+from COVID-19?</string>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oMO-Ly-cp2">
+                                                <rect key="frame" x="39" y="1044" width="350" height="90"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="350" id="f5D-Al-Yaf"/>
+                                                    <constraint firstAttribute="height" constant="90" id="vuq-KK-oCv"/>
+                                                </constraints>
+                                                <string key="text">Fortunately, people who have mild to moderate symptoms typically recover in a few days or weeks.
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hfB-7e-bLB">
+                                                <rect key="frame" x="39" y="1154" width="350" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="4Nv-tp-idX"/>
+                                                    <constraint firstAttribute="width" constant="350" id="fSd-tN-eHk"/>
+                                                </constraints>
+                                                <string key="text">How long can COVID-19 
+symptoms last?</string>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k8o-NS-4jG">
+                                                <rect key="frame" x="39" y="1254" width="350" height="150"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="350" id="0vd-v7-76j"/>
+                                                    <constraint firstAttribute="height" constant="150" id="ycm-K3-r4h"/>
+                                                </constraints>
+                                                <string key="text">Long COVID is a range of symptoms that can last weeks or months after first being infected with the virus that causes COVID-19 or can appear weeks after infection. Long COVID can happen to anyone who has had COVID-19, even if their illness was mild, or if they had no symptoms.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6rc-Lm-6OC">
+                                                <rect key="frame" x="39" y="1424" width="350" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="kmr-DV-dzl"/>
+                                                    <constraint firstAttribute="width" constant="350" id="wOP-v3-ZVb"/>
+                                                </constraints>
+                                                <string key="text">Can I recover at home 
+from COVID-19?
+</string>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lNW-hc-9RE">
+                                                <rect key="frame" x="39" y="1524" width="350" height="270"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="270" id="FtT-bq-Dn2"/>
+                                                    <constraint firstAttribute="width" constant="350" id="QeD-AX-CNx"/>
+                                                </constraints>
+                                                <string key="text">Most people with COVID-19 have mild illness and can recover at home without medical care. 
+1. Do not leave your home, except to get    medical care.
+2. Do not visit public areas.Take care of yourself. 
+3. Get rest and stay hydrated. 
+4. Take over-the-counter medicines, such as acetaminophen, to help you feel better. 
+5. Stay in touch with your doctor. Call before   you get medical care.
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What are the new or ongoing symptoms of COVID-19?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GPm-mG-MCQ">
+                                                <rect key="frame" x="39" y="1814" width="350" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="350" id="GEE-io-KUJ"/>
+                                                    <constraint firstAttribute="height" constant="80" id="UQR-jm-q0W"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R47-qP-b3B">
+                                                <rect key="frame" x="39" y="1914" width="350" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="TfF-4J-ZTm"/>
+                                                    <constraint firstAttribute="width" constant="350" id="WYw-vG-Opw"/>
+                                                </constraints>
+                                                <string key="text">People commonly report experiencing different combinations of the following symptoms: Difficulty breathing or shortness of breath. Tiredness or fatigue. Symptoms that get worse after physical or mental activities (also known as post-exertional malaise).
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="NOO-cc-4Ci" firstAttribute="centerX" secondItem="LIy-td-UNR" secondAttribute="centerX" id="09h-Su-rRq"/>
+                                            <constraint firstItem="tsm-cM-oTJ" firstAttribute="centerX" secondItem="LIy-td-UNR" secondAttribute="centerX" id="5Mo-0o-bTL"/>
+                                            <constraint firstItem="NRY-QF-4hl" firstAttribute="top" secondItem="XMO-OG-qY1" secondAttribute="bottom" constant="20" id="7ch-Ni-bzj"/>
+                                            <constraint firstItem="tsm-cM-oTJ" firstAttribute="top" secondItem="NRY-QF-4hl" secondAttribute="bottom" constant="20" id="8Cp-Re-ODh"/>
+                                            <constraint firstItem="k8o-NS-4jG" firstAttribute="top" secondItem="hfB-7e-bLB" secondAttribute="bottom" constant="20" id="93W-Us-Db3"/>
+                                            <constraint firstItem="k8o-NS-4jG" firstAttribute="centerX" secondItem="LIy-td-UNR" secondAttribute="centerX" id="9km-hw-eFa"/>
+                                            <constraint firstItem="NOO-cc-4Ci" firstAttribute="top" secondItem="LIy-td-UNR" secondAttribute="top" constant="20" id="AKp-E1-msO"/>
+                                            <constraint firstItem="6rc-Lm-6OC" firstAttribute="centerX" secondItem="LIy-td-UNR" secondAttribute="centerX" id="ARF-BT-vLD"/>
+                                            <constraint firstItem="vNL-KR-Y5N" firstAttribute="top" secondItem="NOO-cc-4Ci" secondAttribute="bottom" constant="20" id="Aq1-nb-KaG"/>
+                                            <constraint firstItem="vNL-KR-Y5N" firstAttribute="centerX" secondItem="LIy-td-UNR" secondAttribute="centerX" id="D3g-VP-Q01"/>
+                                            <constraint firstItem="GPm-mG-MCQ" firstAttribute="top" secondItem="lNW-hc-9RE" secondAttribute="bottom" constant="20" id="EOm-y6-RE9"/>
+                                            <constraint firstItem="XMO-OG-qY1" firstAttribute="centerX" secondItem="LIy-td-UNR" secondAttribute="centerX" id="HEL-16-Cs4"/>
+                                            <constraint firstItem="lNW-hc-9RE" firstAttribute="top" secondItem="6rc-Lm-6OC" secondAttribute="bottom" constant="20" id="L9J-p2-mSx"/>
+                                            <constraint firstItem="R47-qP-b3B" firstAttribute="top" secondItem="GPm-mG-MCQ" secondAttribute="bottom" constant="20" id="Pmq-1x-BQJ"/>
+                                            <constraint firstItem="lNW-hc-9RE" firstAttribute="centerX" secondItem="LIy-td-UNR" secondAttribute="centerX" id="Rax-Tf-k6O"/>
+                                            <constraint firstItem="uUC-Xf-rUk" firstAttribute="centerX" secondItem="LIy-td-UNR" secondAttribute="centerX" id="S63-nt-bwa"/>
+                                            <constraint firstItem="XMO-OG-qY1" firstAttribute="top" secondItem="ve6-Fj-dSt" secondAttribute="bottom" constant="20" id="ScF-dX-jlg"/>
+                                            <constraint firstAttribute="height" constant="3070" id="U3k-GG-Ke1"/>
+                                            <constraint firstItem="uUC-Xf-rUk" firstAttribute="top" secondItem="vNL-KR-Y5N" secondAttribute="bottom" constant="20" id="Ujf-pJ-kcS"/>
+                                            <constraint firstItem="hfB-7e-bLB" firstAttribute="centerX" secondItem="LIy-td-UNR" secondAttribute="centerX" id="W9d-mu-Msu"/>
+                                            <constraint firstItem="ve6-Fj-dSt" firstAttribute="centerX" secondItem="LIy-td-UNR" secondAttribute="centerX" id="cgY-Af-2Gp"/>
+                                            <constraint firstItem="oMO-Ly-cp2" firstAttribute="centerX" secondItem="LIy-td-UNR" secondAttribute="centerX" id="cyh-pr-0bP"/>
+                                            <constraint firstItem="ve6-Fj-dSt" firstAttribute="top" secondItem="uUC-Xf-rUk" secondAttribute="bottom" constant="20" id="f9w-y9-7oG"/>
+                                            <constraint firstItem="R47-qP-b3B" firstAttribute="centerX" secondItem="LIy-td-UNR" secondAttribute="centerX" id="kEC-ge-wlV"/>
+                                            <constraint firstItem="oMO-Ly-cp2" firstAttribute="top" secondItem="tsm-cM-oTJ" secondAttribute="bottom" constant="20" id="kPO-gS-OlE"/>
+                                            <constraint firstItem="hfB-7e-bLB" firstAttribute="top" secondItem="oMO-Ly-cp2" secondAttribute="bottom" constant="20" id="nPu-bs-fM7"/>
+                                            <constraint firstItem="GPm-mG-MCQ" firstAttribute="centerX" secondItem="LIy-td-UNR" secondAttribute="centerX" id="tfL-hy-SrU"/>
+                                            <constraint firstItem="6rc-Lm-6OC" firstAttribute="top" secondItem="k8o-NS-4jG" secondAttribute="bottom" constant="20" id="uGQ-u9-pQz"/>
+                                            <constraint firstItem="NRY-QF-4hl" firstAttribute="centerX" secondItem="LIy-td-UNR" secondAttribute="centerX" id="xet-Qc-vCU"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="LIy-td-UNR" firstAttribute="top" secondItem="7Hn-zJ-TIo" secondAttribute="top" id="0nG-F5-7GA"/>
+                                    <constraint firstAttribute="bottom" secondItem="LIy-td-UNR" secondAttribute="bottom" constant="-158" id="JKS-jI-psh"/>
+                                    <constraint firstAttribute="trailing" secondItem="LIy-td-UNR" secondAttribute="trailing" id="SPI-rH-gRh"/>
+                                    <constraint firstItem="LIy-td-UNR" firstAttribute="leading" secondItem="7Hn-zJ-TIo" secondAttribute="leading" id="ZVC-az-ReZ"/>
+                                    <constraint firstItem="LIy-td-UNR" firstAttribute="centerX" secondItem="7Hn-zJ-TIo" secondAttribute="centerX" id="iX9-TM-OGe"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8gS-jW-nve"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7Hn-zJ-TIo" firstAttribute="leading" secondItem="8gS-jW-nve" secondAttribute="leading" id="63P-pW-IQ0"/>
+                            <constraint firstItem="7Hn-zJ-TIo" firstAttribute="top" secondItem="8gS-jW-nve" secondAttribute="top" id="IaF-ol-V8c"/>
+                            <constraint firstItem="7Hn-zJ-TIo" firstAttribute="trailing" secondItem="8gS-jW-nve" secondAttribute="trailing" id="W0z-Fk-95b"/>
+                            <constraint firstAttribute="bottom" secondItem="7Hn-zJ-TIo" secondAttribute="bottom" id="gPK-JQ-796"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="0f7-HO-rj8"/>
+                    <size key="freeformSize" width="428" height="3000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P45-gf-zpx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2043.9252336448596" y="-130.23758099352054"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="WZF-ak-cbl">
+            <objects>
+                <viewController id="orl-CA-Azr" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vlT-mY-Z80">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tfq-yD-0vo">
+                                <rect key="frame" x="109" y="369" width="210" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Start the quiz"/>
+                                <connections>
+                                    <segue destination="9WB-Y0-GSv" kind="show" id="gXw-Sh-i9F"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cvd-OJ-p0s">
+                                <rect key="frame" x="109" y="759" width="210" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Return to the Main Menu"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="bv5-45-qbA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="o7c-Ln-JXJ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3ZW-km-gao"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GLN-C0-1BQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1180.3738317757009" y="-89.416846652267822"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Z9q-s2-a3E"/>
+        <segue reference="bv5-45-qbA"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <image name="Check" width="150" height="159"/>
+        <image name="Date" width="100" height="98"/>
+        <image name="FAQ" width="100" height="128"/>
+        <image name="Hospital Sign" width="100" height="95"/>
+        <image name="Liberary" width="100" height="101"/>
+        <image name="News" width="100" height="61"/>
+        <image name="Record" width="100" height="132"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="secondarySystemGroupedBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
