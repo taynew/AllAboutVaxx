@@ -178,7 +178,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s8c-Zd-WxC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4978.0373831775696" y="-1484.4492440604752"/>
+            <point key="canvasLocation" x="5071" y="-1484"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="cqc-zU-pw8">
@@ -261,11 +261,11 @@
             <objects>
                 <viewController id="XiP-4E-oW5" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EHo-0I-woX">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="4946"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="4838"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="di5-q1-AdN">
-                                <rect key="frame" x="0.0" y="0.0" width="428" height="4946"/>
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="4838"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wj2-vt-6rh">
                                         <rect key="frame" x="0.0" y="0.0" width="420" height="5000"/>
@@ -324,11 +324,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="czn-wW-eDo"/>
-                    <size key="freeformSize" width="428" height="5000"/>
+                    <size key="freeformSize" width="428" height="4892"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lZI-8q-vl8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7404.6728971962611" y="-1484.4492440604752"/>
+            <point key="canvasLocation" x="7400" y="-1519"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="HWW-xi-OUR">
@@ -439,6 +439,12 @@
                                                         <attributes>
                                                             <font key="NSFont" size="24" name="Helvetica-Bold"/>
                                                             <font key="NSOriginalFont" size="24" name="Helvetica-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=":">
+                                                        <attributes>
+                                                            <font key="NSFont" size="24" name="Helvetica-Bold"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                         </attributes>
                                                     </fragment>
@@ -879,7 +885,7 @@ Nasal: congestion or sneezing
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZ9-e7-435" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5807" y="-1484"/>
+            <point key="canvasLocation" x="5843" y="-1484"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="WgW-KQ-fOe">
