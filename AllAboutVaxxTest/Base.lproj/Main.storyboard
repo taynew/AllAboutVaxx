@@ -16,122 +16,99 @@
                         <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TEW-wc-tbH">
-                                <rect key="frame" x="54" y="95.666666666666686" width="120" height="111"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TEW-wc-tbH">
+                                <rect key="frame" x="60" y="570" width="324" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="Liberary" title="" buttonSize="small"/>
+                                <buttonConfiguration key="configuration" style="filled" image="Library2" title="" buttonSize="small"/>
                                 <connections>
                                     <segue destination="ahr-SZ-TIm" kind="show" id="rDW-UF-k7F"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zKk-8w-KS4">
-                                <rect key="frame" x="252" y="95.666666666666686" width="124" height="111"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="111" id="fE6-qO-4gh"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zKk-8w-KS4">
+                                <rect key="frame" x="259" y="713" width="125" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="Date" title="">
+                                <buttonConfiguration key="configuration" style="filled" image="AboutUs" title="">
                                     <color key="baseBackgroundColor" systemColor="linkColor"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="aRl-8k-4nI" kind="show" id="VNb-iX-waI"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ue-3F-LM1">
-                                <rect key="frame" x="52" y="256.66666666666669" width="124" height="111"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="111" id="Fjk-aG-sq0"/>
-                                </constraints>
-                                <buttonConfiguration key="configuration" style="gray" image="Hospital Sign" title="">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ue-3F-LM1">
+                                <rect key="frame" x="60" y="151" width="324" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <buttonConfiguration key="configuration" style="gray" image="Schedule" title="">
                                     <color key="baseBackgroundColor" systemColor="linkColor"/>
                                 </buttonConfiguration>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ux3-un-w8s">
-                                <rect key="frame" x="252" y="256.66666666666669" width="124" height="111"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="111" id="uOu-LN-gm9"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ux3-un-w8s">
+                                <rect key="frame" x="259" y="294" width="125" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" image="News" title=""/>
                                 <connections>
                                     <segue destination="LUs-Tm-YtJ" kind="show" id="nzp-PH-aFF"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q9v-fm-40Z">
-                                <rect key="frame" x="60" y="460" width="24" height="14"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q9v-fm-40Z">
+                                <rect key="frame" x="60" y="1059" width="24" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o8G-ox-4dO">
-                                <rect key="frame" x="52" y="417.66666666666669" width="124" height="111.00000000000006"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="111" id="lBd-ck-lRY"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o8G-ox-4dO">
+                                <rect key="frame" x="60" y="427" width="324" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" image="Record" title=""/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3fm-IO-Ykl">
-                                <rect key="frame" x="252" y="417.66666666666669" width="124" height="111.00000000000006"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="124" id="7EY-FU-9mk"/>
-                                    <constraint firstAttribute="height" constant="111" id="T4T-Bz-sdC"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3fm-IO-Ykl">
+                                <rect key="frame" x="60" y="294" width="125" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" image="Check" title=""/>
                                 <connections>
                                     <segue destination="orl-CA-Azr" kind="show" id="Q0n-Oq-XYk"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Tr-we-ovn">
-                                <rect key="frame" x="52" y="578.66666666666663" width="124" height="111"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="111" id="1R7-kd-toF"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pIu-0d-GPp">
+                                <rect key="frame" x="97" y="20" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <attributedString key="attributedText"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" systemColor="labelColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All About Vaxx" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PEE-oi-1xA">
+                                <rect key="frame" x="74.666666666666657" y="90" width="278.66666666666674" height="46"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Tr-we-ovn">
+                                <rect key="frame" x="60" y="713" width="125" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" image="FAQ" title=""/>
                                 <connections>
                                     <segue destination="Ib3-ht-W6A" kind="show" id="WlQ-jx-feV"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" AllAboutVaxx Menu  " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pIu-0d-GPp">
-                                <rect key="frame" x="82.666666666666686" y="10" width="263" height="35.666666666666664"/>
-                                <color key="backgroundColor" systemColor="labelColor"/>
-                                <color key="tintColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="29"/>
-                                <color key="textColor" systemColor="secondarySystemGroupedBackgroundColor"/>
-                                <nil key="highlightedColor"/>
-                                <color key="shadowColor" systemColor="labelColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="pIu-0d-GPp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0II-Dn-pKd"/>
-                            <constraint firstItem="6Tr-we-ovn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-100" id="1rN-re-Jvp"/>
-                            <constraint firstItem="Ux3-un-w8s" firstAttribute="top" secondItem="zKk-8w-KS4" secondAttribute="bottom" constant="50" id="4YP-Qb-ARC"/>
-                            <constraint firstItem="TEW-wc-tbH" firstAttribute="top" secondItem="pIu-0d-GPp" secondAttribute="bottom" constant="50" id="GHl-s5-S1E"/>
-                            <constraint firstItem="TEW-wc-tbH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-100" id="IKL-1j-QeO"/>
-                            <constraint firstItem="3fm-IO-Ykl" firstAttribute="top" secondItem="Ux3-un-w8s" secondAttribute="bottom" constant="50" id="KpF-0W-b03"/>
-                            <constraint firstItem="o8G-ox-4dO" firstAttribute="top" secondItem="4ue-3F-LM1" secondAttribute="bottom" constant="50" id="KzK-gX-3qW"/>
-                            <constraint firstItem="Ux3-un-w8s" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="100" id="MAt-jg-CL4"/>
-                            <constraint firstItem="zKk-8w-KS4" firstAttribute="top" secondItem="pIu-0d-GPp" secondAttribute="bottom" constant="50" id="NEW-e5-Du3"/>
-                            <constraint firstItem="3fm-IO-Ykl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="100" id="Pil-Eh-ACZ"/>
-                            <constraint firstItem="Q9v-fm-40Z" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="W1Y-Mg-ZCz"/>
-                            <constraint firstItem="4ue-3F-LM1" firstAttribute="top" secondItem="TEW-wc-tbH" secondAttribute="bottom" constant="50" id="XQT-2x-dux"/>
-                            <constraint firstItem="3fm-IO-Ykl" firstAttribute="leading" secondItem="Q9v-fm-40Z" secondAttribute="trailing" constant="168" id="YCi-5A-hoL"/>
-                            <constraint firstItem="pIu-0d-GPp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="ZhB-mg-gYz"/>
-                            <constraint firstItem="o8G-ox-4dO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-100" id="ap3-NF-ZtV"/>
-                            <constraint firstItem="zKk-8w-KS4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="100" id="cOe-Pa-xfe"/>
-                            <constraint firstItem="4ue-3F-LM1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-100" id="k1N-lH-CH3"/>
-                            <constraint firstItem="6Tr-we-ovn" firstAttribute="top" secondItem="o8G-ox-4dO" secondAttribute="bottom" constant="50" id="m7q-Wb-azN"/>
-                            <constraint firstItem="Q9v-fm-40Z" firstAttribute="top" secondItem="4ue-3F-LM1" secondAttribute="bottom" constant="92.333333333333314" id="uTJ-Cv-X5e"/>
+                            <constraint firstItem="PEE-oi-1xA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1Lu-Pt-K1d"/>
+                            <constraint firstItem="PEE-oi-1xA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="90" id="Ep5-TD-ULF"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="qkY-lO-KnP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="179.71014492753625" y="-802.23214285714278"/>
+            <point key="canvasLocation" x="179.43925233644859" y="-802.80777537796985"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="waY-DV-7tJ">
@@ -2024,8 +2001,8 @@ Since the invention of vaccines, the number of babies and adults who become ill 
                                                     <constraint firstAttribute="width" constant="340" id="Sl9-vF-aEJ"/>
                                                     <constraint firstAttribute="height" constant="350" id="g2Y-Wm-XuZ"/>
                                                 </constraints>
-                                                <mutableString key="text">No. Vaccines and autism continue to be found to be unconnected in scientific investigations and reviews.
-Some have speculated that thimerosal (a mercury-containing chemical) in vaccines given to newborns and early children may play a role in autism. Others have hypothesized that the MMR vaccine (measles, mumps, and rubella) is associated to autism. Numerous experts and researchers, on the other hand, have investigated and continue to study the MMR vaccine and thimerosal, and have come to the same conclusion: there is no link between the MMR vaccine and autism.</mutableString>
+                                                <string key="text">No. Vaccines and autism continue to be found to be unconnected in scientific investigations and reviews.
+Some have speculated that thimerosal (a mercury-containing chemical) in vaccines given to newborns and early children may play a role in autism. Others have hypothesized that the MMR vaccine (measles, mumps, and rubella) is associated to autism. Numerous experts and researchers, on the other hand, have investigated and continue to study the MMR vaccine and thimerosal, and have come to the same conclusion: there is no link between the MMR vaccine and autism.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -2088,7 +2065,7 @@ Some have speculated that thimerosal (a mercury-containing chemical) in vaccines
                                                     <constraint firstAttribute="width" constant="340" id="2Z4-ru-nZf"/>
                                                     <constraint firstAttribute="height" constant="350" id="nko-Gc-Nfs"/>
                                                 </constraints>
-                                                <mutableString key="text">Your child will be best protected if he or she receives all of the recommended vaccine doses. Depending on the vaccine, your kid may require multiple doses to develop sufficient immunity to avoid sickness or to maintain immunity that has faded over time. Your child may also receive multiple doses to ensure protection if they did not produce immunity after the initial dosage, or to protect them against germs that vary over time, such as the flu. Every dose is critical because it protects against infectious infections, which can be particularly dangerous for newborns and small children.</mutableString>
+                                                <string key="text">Your child will be best protected if he or she receives all of the recommended vaccine doses. Depending on the vaccine, your kid may require multiple doses to develop sufficient immunity to avoid sickness or to maintain immunity that has faded over time. Your child may also receive multiple doses to ensure protection if they did not produce immunity after the initial dosage, or to protect them against germs that vary over time, such as the flu. Every dose is critical because it protects against infectious infections, which can be particularly dangerous for newborns and small children.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -2617,21 +2594,18 @@ infectious?</string>
         <segue reference="bv5-45-qbA"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="Check" width="150" height="159"/>
-        <image name="Date" width="100" height="98"/>
-        <image name="FAQ" width="100" height="128"/>
-        <image name="Hospital Sign" width="100" height="95"/>
-        <image name="Liberary" width="100" height="101"/>
-        <image name="News" width="100" height="61"/>
-        <image name="Record" width="100" height="132"/>
+        <image name="AboutUs" width="120" height="120"/>
+        <image name="Check" width="120" height="120"/>
+        <image name="FAQ" width="120" height="120"/>
+        <image name="Library2" width="300" height="175"/>
+        <image name="News" width="120" height="120"/>
+        <image name="Record" width="294" height="128"/>
+        <image name="Schedule" width="300" height="100"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="secondarySystemGroupedBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
