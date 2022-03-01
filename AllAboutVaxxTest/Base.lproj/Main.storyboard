@@ -138,20 +138,19 @@
             <objects>
                 <viewController id="RNe-Cp-XFV" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qT0-fD-K55">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="4946"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="7946"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fwl-G1-gbd">
-                                <rect key="frame" x="0.0" y="0.0" width="428" height="4946"/>
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="7946"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3fn-Wy-uLG">
-                                        <rect key="frame" x="0.0" y="0.0" width="428" height="4938"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="428" height="7946"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SlC-dk-Ani">
-                                                <rect key="frame" x="23" y="62" width="170" height="28"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SlC-dk-Ani">
+                                                <rect key="frame" x="98.666666666666686" y="30" width="231" height="28"/>
                                                 <attributedString key="attributedText">
-                                                    <fragment content="Vaccine Name:">
+                                                    <fragment content="DISEASE: COVID-19">
                                                         <attributes>
                                                             <font key="NSFont" size="24" name="Helvetica-Bold"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
@@ -160,116 +159,417 @@
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ewc-wP-c18">
-                                                <rect key="frame" x="23" y="120" width="191" height="62"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <attributedString key="attributedText">
-                                                    <fragment content="Overview">
-                                                        <attributes>
-                                                            <font key="NSFont" size="24" name="Helvetica-Bold"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="90I-6g-dmS">
+                                                <rect key="frame" x="39" y="188" width="350" height="120"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="120" id="H4R-Dr-Q26"/>
+                                                    <constraint firstAttribute="width" constant="350" id="isR-XM-Gnx"/>
+                                                </constraints>
+                                                <string key="text">COVID-19 (coronavirus disease 2019) is a disease caused by a virus named SARS-CoV-2. It was discovered in December 2019 in Wuhan, China and is very contagious.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mdq-G2-kqM">
-                                                <rect key="frame" x="23" y="190" width="91" height="55"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <attributedString key="attributedText">
-                                                    <fragment content="Disease">
-                                                        <attributes>
-                                                            <font key="NSFont" size="24" name="Helvetica-Bold"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Symptoms " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ZX-mB-lzK">
+                                                <rect key="frame" x="155.66666666666666" y="338" width="116.99999999999997" height="27.666666666666686"/>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="24"/>
+                                                <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-Overview &amp; definition of the Disease" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="90I-6g-dmS">
-                                                <rect key="frame" x="23" y="270" width="283" height="21"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wKd-Ia-cC6">
+                                                <rect key="frame" x="39" y="395.66666666666674" width="350" height="260"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="350" id="Js6-c9-arT"/>
+                                                    <constraint firstAttribute="height" constant="260" id="qvz-3F-4lu"/>
+                                                </constraints>
+                                                <string key="text">Most people with COVID-19 have mild symptoms that can feel much like a cold, a flu, or pneumonia but some people become severely ill. COVID-19 attacks  your lungs and respiratory system and other parts of your body may also be affected by the disease. People with minor or no symptoms may suffer from post-COVID conditions — or “long COVID”. Older adults and people who have certain underlying medical conditions are at increased risk of severe illness from COVID-19.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Overview and Definition" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fsS-hY-47b">
+                                                <rect key="frame" x="39" y="118" width="350" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="350" id="GRQ-4f-dBu"/>
+                                                    <constraint firstAttribute="height" constant="40" id="SCb-3h-fbo"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="24"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How COVID-19 Spreads" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6d9-RB-hrB">
+                                                <rect key="frame" x="39" y="685.66666666666663" width="350" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="350" id="HXD-gE-0hw"/>
+                                                    <constraint firstAttribute="height" constant="30" id="XME-sM-xyL"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="24"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-Kaniz Fatema" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ji-sc-qMp">
+                                                <rect key="frame" x="39" y="68" width="350" height="20"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="350" id="mXR-7o-mG2"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-Symptoms for the common disease" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ZX-mB-lzK">
-                                                <rect key="frame" x="23" y="328" width="277" height="21"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="07N-dC-tcm">
+                                                <rect key="frame" x="39" y="745.66666666666663" width="350" height="499.99999999999989"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="350" id="UOw-mt-caU"/>
+                                                    <constraint firstAttribute="height" constant="500" id="rvR-AA-DaH"/>
+                                                </constraints>
+                                                <mutableString key="text">COVID-19 spreads when someone breathes in the droplets and the particles that contain the virus or these contaminated particles land on their eyes, noses or mouth. Covid-19 infected people exhale these particles that contain viruses or they may contaminate surfaces they touch.People who are closer than 6 feet from the infected person are most likely to get infected.
+
+COVID-19  spread in three main ways:
+
+1. Breathing: By breathing in air when close to an infected person who is exhaling small droplets and particles that contain the virus.
+2. Coughing or sneezing: It spreads through splashes and sprays like a cough or sneeze.
+3. Touching: By touching eyes, nose, or mouth with hands that have the virus on them.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-Variants of the disease" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wKd-Ia-cC6">
-                                                <rect key="frame" x="23" y="402" width="180" height="21"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Variants of Covid-19" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="78f-o2-E3Y">
+                                                <rect key="frame" x="39" y="1275.6666666666667" width="350" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="HZU-Ed-ftX"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="350" id="avy-0h-ZHb"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="24"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-Recovery" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="88N-9C-wis">
-                                                <rect key="frame" x="29" y="450" width="79" height="21"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XFq-MB-JQ7">
+                                                <rect key="frame" x="39" y="1335.6666666666667" width="350" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="1aD-3G-782"/>
+                                                    <constraint firstAttribute="width" constant="350" id="VFD-5h-cIv"/>
+                                                </constraints>
+                                                <string key="text">Viruses constantly change through mutation and sometimes these mutations result in a new variant of the virus. Some variants emerge and disappear while others persist. New variants will continue to emerge. CDC and other public health organizations monitor all variants of the virus that causes COVID-19 in the United States and globally.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-Moratality Statistics" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1o6-oJ-OgC">
-                                                <rect key="frame" x="23" y="510" width="158" height="21"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Omicron - B.1.1.529" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4bF-Qk-vZh">
+                                                <rect key="frame" x="39" y="1565.6666666666667" width="350" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="iDa-1F-q1J"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="350" id="o52-3k-tCZ"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="24"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XOh-sb-1Cg">
-                                                <rect key="frame" x="23" y="567" width="83" height="28"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <attributedString key="attributedText">
-                                                    <fragment content="History">
-                                                        <attributes>
-                                                            <font key="NSFont" size="24" name="Helvetica-Bold"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oqe-jr-bM6">
+                                                <rect key="frame" x="39" y="1625.6666666666667" width="350" height="820.00000000000023"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="350" id="Dbz-ds-3ms"/>
+                                                    <constraint firstAttribute="height" constant="820" id="XFJ-ak-jeK"/>
+                                                </constraints>
+                                                <mutableString key="text">Omicron waas first identified in South Africa and it spreads more easily than other variants.
+
+Symptoms of Omicron variant are:
+
+Fever or chills
+Cough
+Shortness of breath or difficulty breathing
+Fatigue
+Muscle or body aches
+Headache
+New loss of taste or smell
+Sore throat
+Congestion or runny nose
+Nausea or vomiting
+Diarrhea
+
+Severe illness and death: Data suggest that Omicron is less severe but a surge in cases may lead to significant increases in hospitalization and death. 
+
+Vaccine: Breakthrough infections in people who are vaccinated are expected, but being up to date on recommended vaccines is effective at preventing severe illness, hospitalizations, and death. The emergence of the Omicron variant further emphasizes the importance of vaccination and boosters.
+
+Treatments: Some, but not all, monoclonal antibody treatments remain effective against Omicron. Public health agencies work with healthcare providers to ensure that effective treatments are used appropriately to treat patients.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M2P-hB-gsC">
-                                                <rect key="frame" x="23" y="640" width="307" height="28"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <attributedString key="attributedText">
-                                                    <fragment content="Different types of Vaccines">
-                                                        <attributes>
-                                                            <font key="NSFont" size="24" name="Helvetica-Bold"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delta - B.1.617.2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5RG-NI-DYY">
+                                                <rect key="frame" x="39" y="2475.6666666666665" width="350" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="L2W-ZA-Ss3"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="350" id="bPD-zi-9hf"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="24"/>
+                                                <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cyT-rq-Npd">
-                                                <rect key="frame" x="23" y="713" width="163" height="28"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <attributedString key="attributedText">
-                                                    <fragment content="Adminstration">
-                                                        <attributes>
-                                                            <font key="NSFont" size="24" name="Helvetica-Bold"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Jy-Q5-FrX">
+                                                <rect key="frame" x="39" y="2535.6666666666665" width="350" height="560"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="350" id="54b-i5-chV"/>
+                                                    <constraint firstAttribute="height" constant="560" id="HIF-pd-oy3"/>
+                                                </constraints>
+                                                <mutableString key="text">First identified: India
+
+Spread: May spread more easily than other variants.
+
+Symptoms: Symptoms are same as  COVID-19 
+
+Severe illness and death: May cause more severe cases than the other variants
+
+Vaccine: Breakthrough infections in people who are vaccinated are expected, but being up to date on recommended vaccines is effective at preventing severe illness, hospitalizations, and death. Early evidence suggests that people who are up to date with their vaccines who become infected with the Delta variant can spread the virus to others. All FDA-approved or authorized vaccines are effective against severe illness, hospitalization, and death
+
+Treatments: All FDA-authorized monoclonal antibody treatments are effective against infection with Delta.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pritom &amp; Sanzida" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3vM-wg-zHk">
-                                                <rect key="frame" x="261" y="37" width="131" height="21"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COVID-19 Vaccine Overview" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KN0-Oj-UJP">
+                                                <rect key="frame" x="39" y="3125.6666666666665" width="350" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="COR-0x-PUS"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="350" id="cS0-KW-Wv9"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="24"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BXh-Tv-NdS">
+                                                <rect key="frame" x="39" y="3185.6666666666665" width="350" height="260"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="260" id="W3B-6c-GpH"/>
+                                                    <constraint firstAttribute="width" constant="350" id="vNz-gv-D1m"/>
+                                                </constraints>
+                                                <string key="text">Bringing a new vaccine to the public involves many steps including vaccine development, clinical trials, U.S. Food and Drug Administration (FDA) authorization or approval, manufacturing, and distribution. Many different public organizations and private companies have worked together to make COVID-19 vaccines available to the public. While COVID-19 vaccines were developed rapidly, all steps have been taken to ensure their safety and effectiveness.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Initial Development" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z7D-Jk-kV1">
+                                                <rect key="frame" x="39" y="3475.6666666666665" width="350" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="350" id="A0b-jZ-ULx"/>
+                                                    <constraint firstAttribute="height" constant="30" id="lIF-y8-VK5"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="24"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qze-Ve-leC">
+                                                <rect key="frame" x="39" y="3512.6666666666665" width="350" height="280"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="350" id="7ud-O1-wUJ"/>
+                                                    <constraint firstAttribute="height" constant="280" id="iqy-jQ-eg8"/>
+                                                </constraints>
+                                                <string key="text">          New vaccines are first developed in laboratories. Scientists have been working for many years to develop vaccines against coronaviruses, such as those that cause severe acute respiratory syndrome (SARS) and Middle East respiratory syndrome (MERS). SARS-CoV-2, the virus that causes COVID-19, is related to these other coronaviruses. The knowledge that was gained through past research on coronavirus vaccines helped speed up the initial development of the current COVID-19 vaccines.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clinical Trials" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tr7-YT-q2M">
+                                                <rect key="frame" x="39" y="3822.6666666666665" width="350" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="AcO-dF-Ttm"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="350" id="PSQ-gu-dD9"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="24"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8l5-4a-Ogh">
+                                                <rect key="frame" x="39" y="3859.6666666666661" width="350" height="520"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="350" id="JUl-SK-wsP"/>
+                                                    <constraint firstAttribute="height" constant="520" id="YZT-w8-qhp"/>
+                                                </constraints>
+                                                <mutableString key="text">          The clinical trials for COVID-19 vaccines have involved tens of thousands of volunteers of different ages, races, and ethnicities. Clinical trials for vaccines compare outcomes (such as how many people get sick) between people who are vaccinated and people who are not. Because COVID-19 continues to be widespread, the vaccine clinical trials have been conducted more quickly than if the disease were less common. Results from these trials have shown that COVID-19 vaccines are effective, especially against severe illness, hospitalization, and death.
+The clinical trials showed no serious safety concerns within 8 weeks following vaccination. This is an important milestone, as it is unusual for adverse effects caused by vaccines to appear after this amount of time. Now that COVID-19 vaccines are available to the public, CDC and FDA continue to monitor their safety and alert the public about health problems that are reported after vaccination.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kNs-gE-idB">
+                                                <rect key="frame" x="39" y="4409.666666666667" width="350" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="qAT-3t-B4P"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="350" id="xFH-8N-SnW"/>
+                                                </constraints>
+                                                <string key="text">Authorization or Approval
+</string>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="24"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i5T-S2-jRp">
+                                                <rect key="frame" x="39" y="4446.666666666667" width="350" height="620"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="620" id="YKo-cj-aTf"/>
+                                                    <constraint firstAttribute="width" constant="350" id="xiI-0X-n5E"/>
+                                                </constraints>
+                                                <mutableString key="text">          Before vaccines are made available to people in real-world settings, FDA assesses the findings from clinical trials.  Initially, they determined that three COVID-19 vaccines met FDA’s safety and effectiveness standards and granted those vaccines Emergency Use Authorizations (EUAs) . The EUAs allowed the vaccines to be quickly distributed for use while maintaining the same high safety standards required for all vaccines. 
+FDA has now granted full approval for Pfizer-BioNTech (COMIRNATY) COVID-19 Vaccine for people ages 16 years and older and for Moderna (Spikevax) COVID-19 Vaccine for people ages 18 years and older.  Before granting approval, FDA reviewed evidence that built on the data and information submitted to support the EUA. This included preclinical and clinical trial data and information, as well as details of the manufacturing process, vaccine testing results to ensure vaccine quality, and inspections of the sites where the vaccine is made. These vaccines were found to meet the high standards for safety, effectiveness, and manufacturing quality FDA requires of an approved product.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Manufacturing and Distribution" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cSM-Pt-FPw">
+                                                <rect key="frame" x="39" y="5096.666666666667" width="350" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="350" id="Tha-kV-Qhu"/>
+                                                    <constraint firstAttribute="height" constant="30" id="UIG-VK-mvj"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="24"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dzQ-N2-vsp">
+                                                <rect key="frame" x="39" y="5133.666666666667" width="350" height="180"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="350" id="Gvc-nQ-wcb"/>
+                                                    <constraint firstAttribute="height" constant="180" id="QsA-z2-UVP"/>
+                                                </constraints>
+                                                <string key="text">          The U.S. government has invested substantial resources for both manufacturing and distribution of COVID-19 vaccines. This allowed manufacturing to begin when the vaccines were still in the third phase of clinical trials so that distribution could begin as soon as FDA authorized each vaccine.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tracking Safety Using Vaccine Monitoring Systems" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N4k-2G-K2m">
+                                                <rect key="frame" x="39" y="5343.666666666667" width="350" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="oHP-LE-Vam"/>
+                                                    <constraint firstAttribute="width" constant="350" id="vWA-Iw-R9w"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jOL-Ll-D7D">
+                                                <rect key="frame" x="39" y="5410.666666666667" width="350" height="310"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="310" id="SWU-GE-yse"/>
+                                                    <constraint firstAttribute="width" constant="350" id="zUT-94-7h3"/>
+                                                </constraints>
+                                                <mutableString key="text">          As vaccines are distributed outside of clinical trials, several monitoring systems continue to track them to ensure their safety. Hundreds of millions of people in the United States have received COVID-19 vaccines under the most intense safety monitoring in U.S. history. Some people have no side effects. Many people have reported common side effects after COVID-19 vaccination, like pain or swelling at the injection site, a headache, chills, or fever. These reactions are common and are normal signs that your body is building protection.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Immune System-the Body’s Defense Against Infection" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IX3-qI-C2g">
+                                                <rect key="frame" x="39" y="5750.666666666667" width="350" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="350" id="R9P-Xv-skc"/>
+                                                    <constraint firstAttribute="height" constant="60" id="lRk-Ze-pcO"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="24"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hC0-yx-CZm">
+                                                <rect key="frame" x="39" y="5840.666666666667" width="350" height="650"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="350" id="5E0-7n-Une"/>
+                                                    <constraint firstAttribute="height" constant="650" id="9dO-77-hdc"/>
+                                                </constraints>
+                                                <mutableString key="text">To understand how COVID-19 vaccines work, it helps to first look at how our bodies fight illness. When germs, such as the virus that causes COVID-19, invade our bodies, they attack and multiply. This invasion, called an infection, is what causes illness. Our immune system uses several tools to fight infection. Blood contains red cells, which carry oxygen to tissues and organs, and white or immune cells, which fight infection. Different types of white blood cells fight infection in different ways:
+
+1. Macrophages are white blood cells that swallow up and digest germs and dead or dying cells. The macrophages leave behind parts of the invading germs, called “antigens”. The body identifies antigens as dangerous and stimulates antibodies to attack them.
+
+2. B-lymphocytes are defensive white blood cells. They produce antibodies that attack the pieces of the virus left behind by the macrophages.
+
+3. T-lymphocytes are another type of defensive white blood cell. They attack cells in the body that have already been infected.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Types of COVID-19 Vaccine" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ql-tU-yqP">
+                                                <rect key="frame" x="39" y="6520.666666666667" width="350" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="6hl-O0-p49"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="350" id="Mfe-7E-E3I"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="24"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pws-ML-AiD">
+                                                <rect key="frame" x="39" y="6580.666666666667" width="350" height="400"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="350" id="0aZ-VX-2VI"/>
+                                                    <constraint firstAttribute="height" constant="400" id="tdb-OP-Jfs"/>
+                                                </constraints>
+                                                <mutableString key="text">Currently, there are three main types of COVID-19 vaccines that are approved or authorized for use in the United States or that are undergoing large-scale (Phase 3) clinical trials in the United States.
+CDC recommends that people who are starting their vaccine series or getting a booster dose get either Pfizer-BioNTech or Moderna (mRNA COVID-19 vaccines); however, which vaccine you can get depends upon your age. The mRNA vaccines are preferred over Johnson &amp; Johnson’s Janssen COVID-19 vaccine (a viral vector vaccine) in most circumstances. Although mRNA vaccines are preferred, the J&amp;J/Janssen COVID-19 vaccine may be considered in some situations.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="4938" id="AkU-Zh-mQC"/>
+                                            <constraint firstItem="IX3-qI-C2g" firstAttribute="top" secondItem="jOL-Ll-D7D" secondAttribute="bottom" constant="30" id="0GG-Xz-M0I"/>
+                                            <constraint firstItem="qze-Ve-leC" firstAttribute="centerX" secondItem="3fn-Wy-uLG" secondAttribute="centerX" id="240-Jc-Slw"/>
+                                            <constraint firstItem="tr7-YT-q2M" firstAttribute="top" secondItem="qze-Ve-leC" secondAttribute="bottom" constant="30" id="6m9-VU-4EY"/>
+                                            <constraint firstItem="9Jy-Q5-FrX" firstAttribute="centerX" secondItem="3fn-Wy-uLG" secondAttribute="centerX" id="6qq-Re-kQN"/>
+                                            <constraint firstItem="dzQ-N2-vsp" firstAttribute="centerX" secondItem="3fn-Wy-uLG" secondAttribute="centerX" id="8Jp-zg-JEX"/>
+                                            <constraint firstItem="N4k-2G-K2m" firstAttribute="centerX" secondItem="3fn-Wy-uLG" secondAttribute="centerX" id="9rw-U7-CFm"/>
+                                            <constraint firstItem="1ji-sc-qMp" firstAttribute="top" secondItem="SlC-dk-Ani" secondAttribute="bottom" constant="10" id="AE9-dV-V0S"/>
+                                            <constraint firstAttribute="height" constant="7946" id="AkU-Zh-mQC"/>
+                                            <constraint firstItem="8l5-4a-Ogh" firstAttribute="centerX" secondItem="3fn-Wy-uLG" secondAttribute="centerX" id="B0E-5i-aRH"/>
+                                            <constraint firstItem="90I-6g-dmS" firstAttribute="top" secondItem="fsS-hY-47b" secondAttribute="bottom" constant="30" id="DXw-uu-aES"/>
+                                            <constraint firstItem="hC0-yx-CZm" firstAttribute="centerX" secondItem="3fn-Wy-uLG" secondAttribute="centerX" id="EqB-bx-d7Q"/>
+                                            <constraint firstItem="wKd-Ia-cC6" firstAttribute="top" secondItem="4ZX-mB-lzK" secondAttribute="bottom" constant="30" id="FGt-Mf-QcV"/>
+                                            <constraint firstItem="6d9-RB-hrB" firstAttribute="top" secondItem="wKd-Ia-cC6" secondAttribute="bottom" constant="30" id="I1t-2A-Ay7"/>
+                                            <constraint firstItem="dzQ-N2-vsp" firstAttribute="top" secondItem="cSM-Pt-FPw" secondAttribute="bottom" constant="7" id="I95-DT-Deh"/>
+                                            <constraint firstItem="IX3-qI-C2g" firstAttribute="centerX" secondItem="3fn-Wy-uLG" secondAttribute="centerX" id="J0W-Fa-WqB"/>
+                                            <constraint firstItem="Pws-ML-AiD" firstAttribute="centerX" secondItem="3fn-Wy-uLG" secondAttribute="centerX" id="J8d-hR-8RV"/>
+                                            <constraint firstItem="i5T-S2-jRp" firstAttribute="top" secondItem="kNs-gE-idB" secondAttribute="bottom" constant="7" id="LlC-yd-0BR"/>
+                                            <constraint firstItem="78f-o2-E3Y" firstAttribute="centerX" secondItem="3fn-Wy-uLG" secondAttribute="centerX" id="N18-Bz-2XK"/>
+                                            <constraint firstItem="Oqe-jr-bM6" firstAttribute="centerX" secondItem="3fn-Wy-uLG" secondAttribute="centerX" id="NvM-sN-7fY"/>
+                                            <constraint firstItem="78f-o2-E3Y" firstAttribute="top" secondItem="07N-dC-tcm" secondAttribute="bottom" constant="30" id="NzY-Im-gYq"/>
+                                            <constraint firstItem="4bF-Qk-vZh" firstAttribute="centerX" secondItem="3fn-Wy-uLG" secondAttribute="centerX" id="ONg-UF-w3a"/>
+                                            <constraint firstItem="z7D-Jk-kV1" firstAttribute="top" secondItem="BXh-Tv-NdS" secondAttribute="bottom" constant="30" id="PH7-vH-UH4"/>
+                                            <constraint firstItem="90I-6g-dmS" firstAttribute="centerX" secondItem="3fn-Wy-uLG" secondAttribute="centerX" id="PKS-KE-Vuy"/>
+                                            <constraint firstItem="KN0-Oj-UJP" firstAttribute="top" secondItem="9Jy-Q5-FrX" secondAttribute="bottom" constant="30" id="RK7-2u-37X"/>
+                                            <constraint firstItem="fsS-hY-47b" firstAttribute="top" secondItem="SlC-dk-Ani" secondAttribute="bottom" constant="60" id="Sar-Sd-qm3"/>
+                                            <constraint firstItem="6d9-RB-hrB" firstAttribute="centerX" secondItem="3fn-Wy-uLG" secondAttribute="centerX" id="Sgx-vd-6G6"/>
+                                            <constraint firstItem="9Ql-tU-yqP" firstAttribute="top" secondItem="hC0-yx-CZm" secondAttribute="bottom" constant="30" id="TcF-1E-FsJ"/>
+                                            <constraint firstItem="kNs-gE-idB" firstAttribute="centerX" secondItem="3fn-Wy-uLG" secondAttribute="centerX" id="U5N-he-CZd"/>
+                                            <constraint firstItem="BXh-Tv-NdS" firstAttribute="top" secondItem="KN0-Oj-UJP" secondAttribute="bottom" constant="30" id="UBe-Lo-ipM"/>
+                                            <constraint firstItem="8l5-4a-Ogh" firstAttribute="top" secondItem="tr7-YT-q2M" secondAttribute="bottom" constant="7" id="UVT-4Q-A82"/>
+                                            <constraint firstItem="XFq-MB-JQ7" firstAttribute="centerX" secondItem="3fn-Wy-uLG" secondAttribute="centerX" id="VON-b7-eN1"/>
+                                            <constraint firstItem="jOL-Ll-D7D" firstAttribute="top" secondItem="N4k-2G-K2m" secondAttribute="bottom" constant="7" id="VXg-Sj-10n"/>
+                                            <constraint firstItem="tr7-YT-q2M" firstAttribute="centerX" secondItem="3fn-Wy-uLG" secondAttribute="centerX" id="X0L-cc-lg9"/>
+                                            <constraint firstItem="kNs-gE-idB" firstAttribute="top" secondItem="8l5-4a-Ogh" secondAttribute="bottom" constant="30" id="Ylo-4r-0PP"/>
+                                            <constraint firstItem="N4k-2G-K2m" firstAttribute="top" secondItem="dzQ-N2-vsp" secondAttribute="bottom" constant="30" id="ZUl-R8-mpr"/>
+                                            <constraint firstItem="SlC-dk-Ani" firstAttribute="top" secondItem="3fn-Wy-uLG" secondAttribute="top" constant="30" id="bg2-gd-593"/>
+                                            <constraint firstItem="5RG-NI-DYY" firstAttribute="centerX" secondItem="3fn-Wy-uLG" secondAttribute="centerX" id="eQw-Tf-er7"/>
+                                            <constraint firstItem="Oqe-jr-bM6" firstAttribute="top" secondItem="4bF-Qk-vZh" secondAttribute="bottom" constant="30" id="eiW-XZ-YVv"/>
+                                            <constraint firstItem="cSM-Pt-FPw" firstAttribute="centerX" secondItem="3fn-Wy-uLG" secondAttribute="centerX" id="esK-pw-hz1"/>
+                                            <constraint firstItem="z7D-Jk-kV1" firstAttribute="centerX" secondItem="3fn-Wy-uLG" secondAttribute="centerX" id="fDQ-pb-suw"/>
+                                            <constraint firstItem="4ZX-mB-lzK" firstAttribute="top" secondItem="90I-6g-dmS" secondAttribute="bottom" constant="30" id="fhh-oY-p0I"/>
+                                            <constraint firstItem="Pws-ML-AiD" firstAttribute="top" secondItem="9Ql-tU-yqP" secondAttribute="bottom" constant="30" id="gDN-sv-GGU"/>
+                                            <constraint firstItem="i5T-S2-jRp" firstAttribute="centerX" secondItem="3fn-Wy-uLG" secondAttribute="centerX" id="hMe-qX-P0T"/>
+                                            <constraint firstItem="07N-dC-tcm" firstAttribute="centerX" secondItem="3fn-Wy-uLG" secondAttribute="centerX" id="heS-aL-X7W"/>
+                                            <constraint firstItem="XFq-MB-JQ7" firstAttribute="top" secondItem="78f-o2-E3Y" secondAttribute="bottom" constant="30" id="iFM-xq-DFr"/>
+                                            <constraint firstItem="qze-Ve-leC" firstAttribute="top" secondItem="z7D-Jk-kV1" secondAttribute="bottom" constant="7" id="jZm-Rw-7GJ"/>
+                                            <constraint firstItem="cSM-Pt-FPw" firstAttribute="top" secondItem="i5T-S2-jRp" secondAttribute="bottom" constant="30" id="jiF-Ob-Egy"/>
+                                            <constraint firstItem="9Jy-Q5-FrX" firstAttribute="top" secondItem="5RG-NI-DYY" secondAttribute="bottom" constant="30" id="kOx-wm-4Ff"/>
+                                            <constraint firstItem="fsS-hY-47b" firstAttribute="top" secondItem="1ji-sc-qMp" secondAttribute="bottom" constant="30" id="kPz-j9-9Br"/>
+                                            <constraint firstItem="07N-dC-tcm" firstAttribute="top" secondItem="6d9-RB-hrB" secondAttribute="bottom" constant="30" id="mLY-7N-k1q"/>
+                                            <constraint firstItem="KN0-Oj-UJP" firstAttribute="centerX" secondItem="3fn-Wy-uLG" secondAttribute="centerX" id="mNf-ld-3vP"/>
+                                            <constraint firstItem="wKd-Ia-cC6" firstAttribute="centerX" secondItem="3fn-Wy-uLG" secondAttribute="centerX" id="pYu-7j-PST"/>
+                                            <constraint firstItem="1ji-sc-qMp" firstAttribute="centerX" secondItem="3fn-Wy-uLG" secondAttribute="centerX" id="ply-b6-0B4"/>
+                                            <constraint firstItem="hC0-yx-CZm" firstAttribute="top" secondItem="IX3-qI-C2g" secondAttribute="bottom" constant="30" id="pnX-O3-URU"/>
+                                            <constraint firstItem="5RG-NI-DYY" firstAttribute="top" secondItem="Oqe-jr-bM6" secondAttribute="bottom" constant="30" id="thp-T5-ejK"/>
+                                            <constraint firstItem="BXh-Tv-NdS" firstAttribute="centerX" secondItem="3fn-Wy-uLG" secondAttribute="centerX" id="uLN-PN-agR"/>
+                                            <constraint firstItem="4ZX-mB-lzK" firstAttribute="centerX" secondItem="3fn-Wy-uLG" secondAttribute="centerX" id="vuP-T1-aPE"/>
+                                            <constraint firstItem="9Ql-tU-yqP" firstAttribute="centerX" secondItem="3fn-Wy-uLG" secondAttribute="centerX" id="wRh-Sv-V8g"/>
+                                            <constraint firstItem="jOL-Ll-D7D" firstAttribute="centerX" secondItem="3fn-Wy-uLG" secondAttribute="centerX" id="wUm-Ym-0Qg"/>
+                                            <constraint firstItem="fsS-hY-47b" firstAttribute="centerX" secondItem="3fn-Wy-uLG" secondAttribute="centerX" id="wmB-nD-vIR"/>
+                                            <constraint firstItem="4bF-Qk-vZh" firstAttribute="top" secondItem="XFq-MB-JQ7" secondAttribute="bottom" constant="30" id="x9Y-YO-Qly"/>
+                                            <constraint firstItem="SlC-dk-Ani" firstAttribute="centerX" secondItem="3fn-Wy-uLG" secondAttribute="centerX" id="z1E-cg-vOp"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -292,7 +592,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="DzK-n2-UK3"/>
-                    <size key="freeformSize" width="428" height="5000"/>
+                    <size key="freeformSize" width="428" height="8000"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s8c-Zd-WxC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1403,7 +1703,7 @@ Nasal: congestion or sneezing
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
                                     <attributedString key="attributedTitle">
-                                        <fragment content="Covid - 19 Vaccine">
+                                        <fragment content="Covid - 19 ">
                                             <attributes>
                                                 <font key="NSFont" size="13" name="Helvetica"/>
                                             </attributes>
@@ -1421,7 +1721,7 @@ Nasal: congestion or sneezing
                                     <constraint firstAttribute="width" constant="355" id="YdR-YF-2Gj"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Covid - 19 Vaccine"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Meningitis"/>
                                 <connections>
                                     <segue destination="ajz-9z-F2q" kind="show" id="fpE-vq-5yW"/>
                                 </connections>
@@ -1433,7 +1733,7 @@ Nasal: congestion or sneezing
                                     <constraint firstAttribute="height" constant="60" id="v6u-1h-ndM"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Covid - 19 Vaccine"/>
+                                <buttonConfiguration key="configuration" style="filled" title="SARS"/>
                                 <connections>
                                     <segue destination="XiP-4E-oW5" kind="show" id="4ZD-Qz-s6I"/>
                                 </connections>
@@ -1445,7 +1745,7 @@ Nasal: congestion or sneezing
                                     <constraint firstAttribute="width" constant="355" id="iK1-RR-DTK"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Covid - 19 Vaccine"/>
+                                <buttonConfiguration key="configuration" style="filled" title="PLAGUE"/>
                                 <connections>
                                     <segue destination="Ypd-SW-aau" kind="show" id="KwR-Ql-WgG"/>
                                 </connections>
@@ -1457,7 +1757,7 @@ Nasal: congestion or sneezing
                                     <constraint firstAttribute="height" constant="55" id="fSv-Jt-nfb"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Covid - 19 Vaccine"/>
+                                <buttonConfiguration key="configuration" style="filled" title="SWINE-FLU"/>
                                 <connections>
                                     <segue destination="1qk-5t-QO6" kind="show" id="n7K-qK-dhb"/>
                                 </connections>
@@ -2134,7 +2434,7 @@ infectious?</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Z9q-s2-a3E"/>
+        <segue reference="Q0n-Oq-XYk"/>
         <segue reference="bv5-45-qbA"/>
     </inferredMetricsTieBreakers>
     <resources>
