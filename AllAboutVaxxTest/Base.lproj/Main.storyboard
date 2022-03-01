@@ -222,13 +222,13 @@
                                                     <constraint firstAttribute="width" constant="350" id="UOw-mt-caU"/>
                                                     <constraint firstAttribute="height" constant="500" id="rvR-AA-DaH"/>
                                                 </constraints>
-                                                <mutableString key="text">COVID-19 spreads when someone breathes in the droplets and the particles that contain the virus or these contaminated particles land on their eyes, noses or mouth. Covid-19 infected people exhale these particles that contain viruses or they may contaminate surfaces they touch.People who are closer than 6 feet from the infected person are most likely to get infected.
+                                                <string key="text">COVID-19 spreads when someone breathes in the droplets and the particles that contain the virus or these contaminated particles land on their eyes, noses or mouth. Covid-19 infected people exhale these particles that contain viruses or they may contaminate surfaces they touch.People who are closer than 6 feet from the infected person are most likely to get infected.
 
 COVID-19  spread in three main ways:
 
 1. Breathing: By breathing in air when close to an infected person who is exhaling small droplets and particles that contain the virus.
 2. Coughing or sneezing: It spreads through splashes and sprays like a cough or sneeze.
-3. Touching: By touching eyes, nose, or mouth with hands that have the virus on them.</mutableString>
+3. Touching: By touching eyes, nose, or mouth with hands that have the virus on them.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -270,7 +270,7 @@ COVID-19  spread in three main ways:
                                                     <constraint firstAttribute="width" constant="350" id="Dbz-ds-3ms"/>
                                                     <constraint firstAttribute="height" constant="820" id="XFJ-ak-jeK"/>
                                                 </constraints>
-                                                <mutableString key="text">Omicron waas first identified in South Africa and it spreads more easily than other variants.
+                                                <string key="text">Omicron waas first identified in South Africa and it spreads more easily than other variants.
 
 Symptoms of Omicron variant are:
 
@@ -290,7 +290,7 @@ Severe illness and death: Data suggest that Omicron is less severe but a surge i
 
 Vaccine: Breakthrough infections in people who are vaccinated are expected, but being up to date on recommended vaccines is effective at preventing severe illness, hospitalizations, and death. The emergence of the Omicron variant further emphasizes the importance of vaccination and boosters.
 
-Treatments: Some, but not all, monoclonal antibody treatments remain effective against Omicron. Public health agencies work with healthcare providers to ensure that effective treatments are used appropriately to treat patients.</mutableString>
+Treatments: Some, but not all, monoclonal antibody treatments remain effective against Omicron. Public health agencies work with healthcare providers to ensure that effective treatments are used appropriately to treat patients.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -311,7 +311,7 @@ Treatments: Some, but not all, monoclonal antibody treatments remain effective a
                                                     <constraint firstAttribute="width" constant="350" id="54b-i5-chV"/>
                                                     <constraint firstAttribute="height" constant="560" id="HIF-pd-oy3"/>
                                                 </constraints>
-                                                <mutableString key="text">First identified: India
+                                                <string key="text">First identified: India
 
 Spread: May spread more easily than other variants.
 
@@ -321,7 +321,7 @@ Severe illness and death: May cause more severe cases than the other variants
 
 Vaccine: Breakthrough infections in people who are vaccinated are expected, but being up to date on recommended vaccines is effective at preventing severe illness, hospitalizations, and death. Early evidence suggests that people who are up to date with their vaccines who become infected with the Delta variant can spread the virus to others. All FDA-approved or authorized vaccines are effective against severe illness, hospitalization, and death
 
-Treatments: All FDA-authorized monoclonal antibody treatments are effective against infection with Delta.</mutableString>
+Treatments: All FDA-authorized monoclonal antibody treatments are effective against infection with Delta.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -384,8 +384,8 @@ Treatments: All FDA-authorized monoclonal antibody treatments are effective agai
                                                     <constraint firstAttribute="width" constant="350" id="JUl-SK-wsP"/>
                                                     <constraint firstAttribute="height" constant="520" id="YZT-w8-qhp"/>
                                                 </constraints>
-                                                <mutableString key="text">          The clinical trials for COVID-19 vaccines have involved tens of thousands of volunteers of different ages, races, and ethnicities. Clinical trials for vaccines compare outcomes (such as how many people get sick) between people who are vaccinated and people who are not. Because COVID-19 continues to be widespread, the vaccine clinical trials have been conducted more quickly than if the disease were less common. Results from these trials have shown that COVID-19 vaccines are effective, especially against severe illness, hospitalization, and death.
-The clinical trials showed no serious safety concerns within 8 weeks following vaccination. This is an important milestone, as it is unusual for adverse effects caused by vaccines to appear after this amount of time. Now that COVID-19 vaccines are available to the public, CDC and FDA continue to monitor their safety and alert the public about health problems that are reported after vaccination.</mutableString>
+                                                <string key="text">          The clinical trials for COVID-19 vaccines have involved tens of thousands of volunteers of different ages, races, and ethnicities. Clinical trials for vaccines compare outcomes (such as how many people get sick) between people who are vaccinated and people who are not. Because COVID-19 continues to be widespread, the vaccine clinical trials have been conducted more quickly than if the disease were less common. Results from these trials have shown that COVID-19 vaccines are effective, especially against severe illness, hospitalization, and death.
+The clinical trials showed no serious safety concerns within 8 weeks following vaccination. This is an important milestone, as it is unusual for adverse effects caused by vaccines to appear after this amount of time. Now that COVID-19 vaccines are available to the public, CDC and FDA continue to monitor their safety and alert the public about health problems that are reported after vaccination.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -408,8 +408,8 @@ The clinical trials showed no serious safety concerns within 8 weeks following v
                                                     <constraint firstAttribute="height" constant="620" id="YKo-cj-aTf"/>
                                                     <constraint firstAttribute="width" constant="350" id="xiI-0X-n5E"/>
                                                 </constraints>
-                                                <mutableString key="text">          Before vaccines are made available to people in real-world settings, FDA assesses the findings from clinical trials.  Initially, they determined that three COVID-19 vaccines met FDA’s safety and effectiveness standards and granted those vaccines Emergency Use Authorizations (EUAs) . The EUAs allowed the vaccines to be quickly distributed for use while maintaining the same high safety standards required for all vaccines. 
-FDA has now granted full approval for Pfizer-BioNTech (COMIRNATY) COVID-19 Vaccine for people ages 16 years and older and for Moderna (Spikevax) COVID-19 Vaccine for people ages 18 years and older.  Before granting approval, FDA reviewed evidence that built on the data and information submitted to support the EUA. This included preclinical and clinical trial data and information, as well as details of the manufacturing process, vaccine testing results to ensure vaccine quality, and inspections of the sites where the vaccine is made. These vaccines were found to meet the high standards for safety, effectiveness, and manufacturing quality FDA requires of an approved product.</mutableString>
+                                                <string key="text">          Before vaccines are made available to people in real-world settings, FDA assesses the findings from clinical trials.  Initially, they determined that three COVID-19 vaccines met FDA’s safety and effectiveness standards and granted those vaccines Emergency Use Authorizations (EUAs) . The EUAs allowed the vaccines to be quickly distributed for use while maintaining the same high safety standards required for all vaccines. 
+FDA has now granted full approval for Pfizer-BioNTech (COMIRNATY) COVID-19 Vaccine for people ages 16 years and older and for Moderna (Spikevax) COVID-19 Vaccine for people ages 18 years and older.  Before granting approval, FDA reviewed evidence that built on the data and information submitted to support the EUA. This included preclinical and clinical trial data and information, as well as details of the manufacturing process, vaccine testing results to ensure vaccine quality, and inspections of the sites where the vaccine is made. These vaccines were found to meet the high standards for safety, effectiveness, and manufacturing quality FDA requires of an approved product.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -451,7 +451,7 @@ FDA has now granted full approval for Pfizer-BioNTech (COMIRNATY) COVID-19 Vacci
                                                     <constraint firstAttribute="height" constant="310" id="SWU-GE-yse"/>
                                                     <constraint firstAttribute="width" constant="350" id="zUT-94-7h3"/>
                                                 </constraints>
-                                                <mutableString key="text">          As vaccines are distributed outside of clinical trials, several monitoring systems continue to track them to ensure their safety. Hundreds of millions of people in the United States have received COVID-19 vaccines under the most intense safety monitoring in U.S. history. Some people have no side effects. Many people have reported common side effects after COVID-19 vaccination, like pain or swelling at the injection site, a headache, chills, or fever. These reactions are common and are normal signs that your body is building protection.</mutableString>
+                                                <string key="text">          As vaccines are distributed outside of clinical trials, several monitoring systems continue to track them to ensure their safety. Hundreds of millions of people in the United States have received COVID-19 vaccines under the most intense safety monitoring in U.S. history. Some people have no side effects. Many people have reported common side effects after COVID-19 vaccination, like pain or swelling at the injection site, a headache, chills, or fever. These reactions are common and are normal signs that your body is building protection.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -472,13 +472,13 @@ FDA has now granted full approval for Pfizer-BioNTech (COMIRNATY) COVID-19 Vacci
                                                     <constraint firstAttribute="width" constant="350" id="5E0-7n-Une"/>
                                                     <constraint firstAttribute="height" constant="650" id="9dO-77-hdc"/>
                                                 </constraints>
-                                                <mutableString key="text">To understand how COVID-19 vaccines work, it helps to first look at how our bodies fight illness. When germs, such as the virus that causes COVID-19, invade our bodies, they attack and multiply. This invasion, called an infection, is what causes illness. Our immune system uses several tools to fight infection. Blood contains red cells, which carry oxygen to tissues and organs, and white or immune cells, which fight infection. Different types of white blood cells fight infection in different ways:
+                                                <string key="text">To understand how COVID-19 vaccines work, it helps to first look at how our bodies fight illness. When germs, such as the virus that causes COVID-19, invade our bodies, they attack and multiply. This invasion, called an infection, is what causes illness. Our immune system uses several tools to fight infection. Blood contains red cells, which carry oxygen to tissues and organs, and white or immune cells, which fight infection. Different types of white blood cells fight infection in different ways:
 
 1. Macrophages are white blood cells that swallow up and digest germs and dead or dying cells. The macrophages leave behind parts of the invading germs, called “antigens”. The body identifies antigens as dangerous and stimulates antibodies to attack them.
 
 2. B-lymphocytes are defensive white blood cells. They produce antibodies that attack the pieces of the virus left behind by the macrophages.
 
-3. T-lymphocytes are another type of defensive white blood cell. They attack cells in the body that have already been infected.</mutableString>
+3. T-lymphocytes are another type of defensive white blood cell. They attack cells in the body that have already been infected.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -499,8 +499,8 @@ FDA has now granted full approval for Pfizer-BioNTech (COMIRNATY) COVID-19 Vacci
                                                     <constraint firstAttribute="width" constant="350" id="0aZ-VX-2VI"/>
                                                     <constraint firstAttribute="height" constant="400" id="tdb-OP-Jfs"/>
                                                 </constraints>
-                                                <mutableString key="text">Currently, there are three main types of COVID-19 vaccines that are approved or authorized for use in the United States or that are undergoing large-scale (Phase 3) clinical trials in the United States.
-CDC recommends that people who are starting their vaccine series or getting a booster dose get either Pfizer-BioNTech or Moderna (mRNA COVID-19 vaccines); however, which vaccine you can get depends upon your age. The mRNA vaccines are preferred over Johnson &amp; Johnson’s Janssen COVID-19 vaccine (a viral vector vaccine) in most circumstances. Although mRNA vaccines are preferred, the J&amp;J/Janssen COVID-19 vaccine may be considered in some situations.</mutableString>
+                                                <string key="text">Currently, there are three main types of COVID-19 vaccines that are approved or authorized for use in the United States or that are undergoing large-scale (Phase 3) clinical trials in the United States.
+CDC recommends that people who are starting their vaccine series or getting a booster dose get either Pfizer-BioNTech or Moderna (mRNA COVID-19 vaccines); however, which vaccine you can get depends upon your age. The mRNA vaccines are preferred over Johnson &amp; Johnson’s Janssen COVID-19 vaccine (a viral vector vaccine) in most circumstances. Although mRNA vaccines are preferred, the J&amp;J/Janssen COVID-19 vaccine may be considered in some situations.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1880,110 +1880,289 @@ Nasal: congestion or sneezing
             <objects>
                 <viewController id="E1G-Sq-nuK" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Aq1-Ma-NtM">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="2962"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="3946"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fdq-2J-MwG">
-                                <rect key="frame" x="0.0" y="0.0" width="428" height="2962"/>
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="3946"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8YI-9L-Egl">
-                                        <rect key="frame" x="0.0" y="0.0" width="428" height="3070"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="428" height="4000"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Who should not get vaccinated against COVID-19?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gFS-Iu-Xgs">
-                                                <rect key="frame" x="5" y="1127" width="360" height="59"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="20"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Common Vaccine FAQs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hy8-b7-gGS">
+                                                <rect key="frame" x="44" y="30" width="340" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="1cH-lq-spe"/>
+                                                    <constraint firstAttribute="width" constant="340" id="81X-6V-chd"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Should I get vaccinated if I already had COVID-19?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V0I-IX-prO">
-                                                <rect key="frame" x="14" y="1592" width="357" height="51"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="20"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fTX-Wh-Hc7">
-                                                <rect key="frame" x="14" y="1216" width="350" height="347"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">There are just a few circumstances in which someone should not be vaccinated. You should not be vaccinated if:
-
-1. You have a history of severe allergic reactions/anaphylaxis to any of the COVID-19 vaccine's ingredients, and you want to avoid any potential side effects.
-2. On the day of your immunization appointment, you have a temperature of more than 38.5°C. Put it off till you're feeling better.
-3. You have COVID-19, either proven or suspected. Wait until your mandatory isolation period has ended and your acute symptoms have subsided before getting vaccinated.</string>
-                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What vaccines do we have against COVID-19?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k6x-ot-RLK">
-                                                <rect key="frame" x="0.0" y="8" width="379" height="52"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="20"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQX-19-wbm">
-                                                <rect key="frame" x="14" y="68" width="365" height="282"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">WHO has approved a number of COVID-19 vaccines for usage. The first mass vaccination campaign began in early December 2020, and the COVID-19 dashboard displays the number of immunization doses provided on a daily basis.</string>
-                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="19"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o3Q-QH-j4P">
-                                                <rect key="frame" x="18" y="404" width="365" height="311"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Getting vaccinated can quite possibly save your life. The vaccinations offer excellent protection from major illness, hospitalization, and death caused by Covid-19. There's also some evidence that getting vaccinated reduces your chances of spreading the virus to others, so your decision to receive the vaccine protects others around you.</string>
-                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="19"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Who should get vaccinated against COVID-19?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZUQ-gu-Evk">
-                                                <rect key="frame" x="0.0" y="754" width="394" height="56"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="20"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NyE-ff-Yha">
-                                                <rect key="frame" x="14" y="839" width="350" height="249"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Since the supply is limited, the WHO recommends that persons who are most at risk of contracting COVID-19 be vaccinated first. So people who are more prone to develop severe disease if infected (the elderly and those with pre-existing medical issues), as well as those who are more likely to be exposed to the virus (such as health workers). Pregnant women are at a higher risk of serious illness and preterm birth if they are infected with COVID-19, so the WHO recommends that they be vaccinated after the first priority groups have been vaccinated.</string>
-                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What are getting the benefits of being vaccinated?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rdl-Fk-iWH">
-                                                <rect key="frame" x="14" y="358" width="375" height="69"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="20"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oNS-JK-I8G">
-                                                <rect key="frame" x="22" y="1612" width="357" height="348"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Yes. Even if you've had COVID-19 before, you should be vaccinated. The level of protection provided by COVID-19 varies substantially from person to person. People's immunity is continuously high after being vaccinated following a natural infection. Even if you have had COVID-19, getting vaccinated increases your chances of being protected for longer.</string>
-                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="18"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pritom &amp; Sanzida" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ya9-ID-L2y">
-                                                <rect key="frame" x="124" y="2862" width="131" height="21"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-Kaniz Fatema" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D1D-8M-OPj">
+                                                <rect key="frame" x="44" y="75" width="340" height="20"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="340" id="ENU-X3-c89"/>
+                                                    <constraint firstAttribute="height" constant="20" id="tna-vo-Ggh"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What are the common side effects of vaccines?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c2q-Vb-SRI">
+                                                <rect key="frame" x="44" y="145" width="340" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="340" id="GLa-YD-stB"/>
+                                                    <constraint firstAttribute="height" constant="60" id="YzD-gI-zhs"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="24"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6wT-BS-ilS">
+                                                <rect key="frame" x="44" y="235" width="340" height="220"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="340" id="8KO-hD-Fxv"/>
+                                                    <constraint firstAttribute="height" constant="220" id="Hq0-XJ-wKx"/>
+                                                </constraints>
+                                                <string key="text">The most common side effects after vaccination are mild. They include:
+
+1. Pain, swelling, or redness where the shot was given
+2. Mild fever
+3. Chills
+4. Feeling tired
+5. Headache
+6. Muscle and joint aches</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What about serious side effects?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Epg-o6-ZFC">
+                                                <rect key="frame" x="44" y="485" width="340" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="340" id="DWV-WF-cph"/>
+                                                    <constraint firstAttribute="height" constant="60" id="eAI-7Y-tPD"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="24"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7WY-nm-Uiy">
+                                                <rect key="frame" x="44" y="575" width="340" height="270"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="340" id="C9d-sf-Mtl"/>
+                                                    <constraint firstAttribute="height" constant="270" id="vkP-BD-XFO"/>
+                                                </constraints>
+                                                <string key="text">Serious side effects from vaccines are extremely rare. For example, if 1 million doses of a vaccine are given, 1 to 2 people may have a severe allergic reaction.
+Signs of a severe allergic reaction can include:
+
+Difficulty breathing
+Swelling of your face and throat
+A fast heartbeat
+A bad rash all over your body
+Dizziness and weakness</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How do we know that vaccines work?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lsj-F3-VBC">
+                                                <rect key="frame" x="44" y="875" width="340" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="3X5-3f-yVZ"/>
+                                                    <constraint firstAttribute="width" constant="340" id="hlL-ds-NeG"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="24"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kzs-8t-hVT">
+                                                <rect key="frame" x="44" y="965" width="340" height="220"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="340" id="XC7-Pr-EWI"/>
+                                                    <constraint firstAttribute="height" constant="220" id="zko-KI-HwC"/>
+                                                </constraints>
+                                                <string key="text">The Food and Drug Administration (FDA) verifies that vaccination is effective and safe before recommending it for use in the United States.
+Since the invention of vaccines, the number of babies and adults who become ill or die as a result of vaccine-preventable diseases has decreased dramatically — and several diseases have been eradicated entirely in the United States.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Are vaccines safe?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TnH-7D-vbc">
+                                                <rect key="frame" x="44" y="1215" width="340" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="340" id="cTz-7L-ABH"/>
+                                                    <constraint firstAttribute="height" constant="30" id="dhu-8t-BE7"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="24"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2bZ-gt-yhK">
+                                                <rect key="frame" x="44" y="1275" width="340" height="220"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="220" id="7g6-nj-bPe"/>
+                                                    <constraint firstAttribute="width" constant="340" id="YPY-Rk-bUn"/>
+                                                </constraints>
+                                                <string key="text">Yes. Vaccinations are extremely safe. The long-standing vaccine safety system in the United States ensures that immunizations are as safe as possible. The United States currently has the safest vaccine supply in history. Every year, millions of children receive immunizations in a safe manner. The most common side effects, such as discomfort or edema at the injection site, are usually minor.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Is there a link between vaccines &amp; autism?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZzI-Mj-rCz">
+                                                <rect key="frame" x="44" y="1525" width="340" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="WvZ-la-FNC"/>
+                                                    <constraint firstAttribute="width" constant="340" id="rH5-VG-qkF"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="24"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Asc-a7-pfx">
+                                                <rect key="frame" x="44" y="1615" width="340" height="350"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="340" id="Sl9-vF-aEJ"/>
+                                                    <constraint firstAttribute="height" constant="350" id="g2Y-Wm-XuZ"/>
+                                                </constraints>
+                                                <mutableString key="text">No. Vaccines and autism continue to be found to be unconnected in scientific investigations and reviews.
+Some have speculated that thimerosal (a mercury-containing chemical) in vaccines given to newborns and early children may play a role in autism. Others have hypothesized that the MMR vaccine (measles, mumps, and rubella) is associated to autism. Numerous experts and researchers, on the other hand, have investigated and continue to study the MMR vaccine and thimerosal, and have come to the same conclusion: there is no link between the MMR vaccine and autism.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Why do vaccination start so early age?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="un0-yv-Ird">
+                                                <rect key="frame" x="44" y="1995" width="340" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="0WR-2X-304"/>
+                                                    <constraint firstAttribute="width" constant="340" id="bDu-YR-Rqp"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="24"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JvA-gX-vNb">
+                                                <rect key="frame" x="44" y="2085" width="340" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="Vqs-9X-RXD"/>
+                                                    <constraint firstAttribute="width" constant="340" id="YVi-mH-vu1"/>
+                                                </constraints>
+                                                <string key="text">Newborns are protected by the suggested schedule because protection is provided early in life, before they are exposed to life-threatening infections. Because children are susceptible to diseases at a young age, they are immunized early. For newborns and young children, the consequences of these disorders can be extremely dangerous, even fatal.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Should the child get shots if they are sick?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zuN-Ql-np6">
+                                                <rect key="frame" x="44" y="2315" width="340" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="W8b-wS-Sei"/>
+                                                    <constraint firstAttribute="width" constant="340" id="l3j-DA-FMV"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="24"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PEa-g2-Zzp">
+                                                <rect key="frame" x="44" y="2405" width="340" height="140"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="340" id="I2D-kt-484"/>
+                                                    <constraint firstAttribute="height" constant="140" id="wWQ-P3-HhX"/>
+                                                </constraints>
+                                                <string key="text">Consult your kid's doctor, but even if your child has a minor ailment such as a cold, earache, slight fever, or diarrhea, he or she can typically be vaccinated. Your youngster can still be vaccinated if the doctor thinks it's acceptable.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Why are there so many doses needed for each vaccine?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WPb-uQ-Y42">
+                                                <rect key="frame" x="44" y="2575" width="340" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="340" id="URb-fo-Y6V"/>
+                                                    <constraint firstAttribute="height" constant="60" id="aOZ-9h-wWN"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="24"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DSy-o3-S07">
+                                                <rect key="frame" x="44" y="2665" width="340" height="350"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="340" id="2Z4-ru-nZf"/>
+                                                    <constraint firstAttribute="height" constant="350" id="nko-Gc-Nfs"/>
+                                                </constraints>
+                                                <mutableString key="text">Your child will be best protected if he or she receives all of the recommended vaccine doses. Depending on the vaccine, your kid may require multiple doses to develop sufficient immunity to avoid sickness or to maintain immunity that has faded over time. Your child may also receive multiple doses to ensure protection if they did not produce immunity after the initial dosage, or to protect them against germs that vary over time, such as the flu. Every dose is critical because it protects against infectious infections, which can be particularly dangerous for newborns and small children.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What are the ingredients in vaccines and what do they do?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEP-KM-jub">
+                                                <rect key="frame" x="44" y="3045" width="340" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="29b-lg-GDG"/>
+                                                    <constraint firstAttribute="width" constant="340" id="bV3-qA-PEF"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="24"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SCi-Ca-Lno">
+                                                <rect key="frame" x="44" y="3135" width="340" height="160"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="340" id="Rga-ff-fTM"/>
+                                                    <constraint firstAttribute="height" constant="160" id="aQQ-hu-t5E"/>
+                                                </constraints>
+                                                <string key="text">Ingredients in vaccines cause the body to acquire immunity. Other chemicals are present in extremely minute levels in vaccines. All elements are required for the production of the vaccine as well as the safety and effectiveness of the finished product.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="3070" id="6xq-RU-x6J"/>
+                                            <constraint firstItem="PEa-g2-Zzp" firstAttribute="centerX" secondItem="8YI-9L-Egl" secondAttribute="centerX" id="0In-u3-a5I"/>
+                                            <constraint firstItem="DSy-o3-S07" firstAttribute="centerX" secondItem="8YI-9L-Egl" secondAttribute="centerX" id="1sf-TM-6Ea"/>
+                                            <constraint firstItem="c2q-Vb-SRI" firstAttribute="centerX" secondItem="8YI-9L-Egl" secondAttribute="centerX" id="39B-sp-Ety"/>
+                                            <constraint firstItem="D1D-8M-OPj" firstAttribute="top" secondItem="hy8-b7-gGS" secondAttribute="bottom" constant="5" id="3EZ-f3-Vcu"/>
+                                            <constraint firstItem="un0-yv-Ird" firstAttribute="top" secondItem="Asc-a7-pfx" secondAttribute="bottom" constant="30" id="4SJ-PO-LlH"/>
+                                            <constraint firstAttribute="height" constant="4000" id="6xq-RU-x6J"/>
+                                            <constraint firstItem="2bZ-gt-yhK" firstAttribute="top" secondItem="TnH-7D-vbc" secondAttribute="bottom" constant="30" id="AJw-fj-LeD"/>
+                                            <constraint firstItem="SCi-Ca-Lno" firstAttribute="top" secondItem="zEP-KM-jub" secondAttribute="bottom" constant="30" id="CUk-Ij-aaC"/>
+                                            <constraint firstItem="c2q-Vb-SRI" firstAttribute="top" secondItem="D1D-8M-OPj" secondAttribute="bottom" constant="50" id="Cx6-Wk-Sa0"/>
+                                            <constraint firstItem="6wT-BS-ilS" firstAttribute="centerX" secondItem="8YI-9L-Egl" secondAttribute="centerX" id="GaN-CL-xFR"/>
+                                            <constraint firstItem="JvA-gX-vNb" firstAttribute="top" secondItem="un0-yv-Ird" secondAttribute="bottom" constant="30" id="Gnv-f6-hTJ"/>
+                                            <constraint firstItem="Asc-a7-pfx" firstAttribute="centerX" secondItem="8YI-9L-Egl" secondAttribute="centerX" id="I4q-jq-pcZ"/>
+                                            <constraint firstItem="7WY-nm-Uiy" firstAttribute="top" secondItem="Epg-o6-ZFC" secondAttribute="bottom" constant="30" id="IZw-Qd-a8i"/>
+                                            <constraint firstItem="2bZ-gt-yhK" firstAttribute="centerX" secondItem="8YI-9L-Egl" secondAttribute="centerX" id="JAu-CA-7g3"/>
+                                            <constraint firstItem="Asc-a7-pfx" firstAttribute="top" secondItem="ZzI-Mj-rCz" secondAttribute="bottom" constant="30" id="KNV-Sl-k47"/>
+                                            <constraint firstItem="kzs-8t-hVT" firstAttribute="centerX" secondItem="8YI-9L-Egl" secondAttribute="centerX" id="Pkd-fR-V0j"/>
+                                            <constraint firstItem="JvA-gX-vNb" firstAttribute="centerX" secondItem="8YI-9L-Egl" secondAttribute="centerX" id="Q4T-1h-Sfz"/>
+                                            <constraint firstItem="zuN-Ql-np6" firstAttribute="centerX" secondItem="8YI-9L-Egl" secondAttribute="centerX" id="Qb0-BV-6TB"/>
+                                            <constraint firstItem="un0-yv-Ird" firstAttribute="centerX" secondItem="8YI-9L-Egl" secondAttribute="centerX" id="S3t-cN-lHu"/>
+                                            <constraint firstItem="ZzI-Mj-rCz" firstAttribute="centerX" secondItem="8YI-9L-Egl" secondAttribute="centerX" id="Sn0-Lh-GXE"/>
+                                            <constraint firstItem="zuN-Ql-np6" firstAttribute="top" secondItem="JvA-gX-vNb" secondAttribute="bottom" constant="30" id="SvE-Ej-7Ij"/>
+                                            <constraint firstItem="6wT-BS-ilS" firstAttribute="top" secondItem="c2q-Vb-SRI" secondAttribute="bottom" constant="30" id="Szi-PM-o2Z"/>
+                                            <constraint firstItem="Epg-o6-ZFC" firstAttribute="centerX" secondItem="8YI-9L-Egl" secondAttribute="centerX" id="XPM-jo-eHn"/>
+                                            <constraint firstItem="Epg-o6-ZFC" firstAttribute="top" secondItem="6wT-BS-ilS" secondAttribute="bottom" constant="30" id="ZkH-7m-5nb"/>
+                                            <constraint firstItem="TnH-7D-vbc" firstAttribute="top" secondItem="kzs-8t-hVT" secondAttribute="bottom" constant="30" id="bzV-1V-4rM"/>
+                                            <constraint firstItem="WPb-uQ-Y42" firstAttribute="top" secondItem="PEa-g2-Zzp" secondAttribute="bottom" constant="30" id="cni-KE-IP9"/>
+                                            <constraint firstItem="kzs-8t-hVT" firstAttribute="top" secondItem="Lsj-F3-VBC" secondAttribute="bottom" constant="30" id="fDp-XA-pGk"/>
+                                            <constraint firstItem="SCi-Ca-Lno" firstAttribute="centerX" secondItem="8YI-9L-Egl" secondAttribute="centerX" id="fz7-Al-u4b"/>
+                                            <constraint firstItem="ZzI-Mj-rCz" firstAttribute="top" secondItem="2bZ-gt-yhK" secondAttribute="bottom" constant="30" id="jjt-T9-fGt"/>
+                                            <constraint firstItem="PEa-g2-Zzp" firstAttribute="top" secondItem="zuN-Ql-np6" secondAttribute="bottom" constant="30" id="mbr-hY-H3z"/>
+                                            <constraint firstItem="7WY-nm-Uiy" firstAttribute="centerX" secondItem="8YI-9L-Egl" secondAttribute="centerX" id="pAN-R7-etJ"/>
+                                            <constraint firstItem="hy8-b7-gGS" firstAttribute="top" secondItem="8YI-9L-Egl" secondAttribute="top" constant="30" id="pGr-GG-yEd"/>
+                                            <constraint firstItem="zEP-KM-jub" firstAttribute="top" secondItem="DSy-o3-S07" secondAttribute="bottom" constant="30" id="pMo-o6-yBh"/>
+                                            <constraint firstItem="WPb-uQ-Y42" firstAttribute="centerX" secondItem="8YI-9L-Egl" secondAttribute="centerX" id="phU-Ub-Qhi"/>
+                                            <constraint firstItem="zEP-KM-jub" firstAttribute="centerX" secondItem="8YI-9L-Egl" secondAttribute="centerX" id="qKZ-Gk-jXQ"/>
+                                            <constraint firstItem="hy8-b7-gGS" firstAttribute="centerX" secondItem="8YI-9L-Egl" secondAttribute="centerX" id="sdz-gP-J3D"/>
+                                            <constraint firstItem="DSy-o3-S07" firstAttribute="top" secondItem="WPb-uQ-Y42" secondAttribute="bottom" constant="30" id="tQ1-IR-xTD"/>
+                                            <constraint firstItem="TnH-7D-vbc" firstAttribute="centerX" secondItem="8YI-9L-Egl" secondAttribute="centerX" id="u7Z-Dt-adP"/>
+                                            <constraint firstItem="Lsj-F3-VBC" firstAttribute="top" secondItem="7WY-nm-Uiy" secondAttribute="bottom" constant="30" id="wMH-vA-o3K"/>
+                                            <constraint firstItem="Lsj-F3-VBC" firstAttribute="centerX" secondItem="8YI-9L-Egl" secondAttribute="centerX" id="wTp-2E-9kL"/>
+                                            <constraint firstItem="D1D-8M-OPj" firstAttribute="centerX" secondItem="8YI-9L-Egl" secondAttribute="centerX" id="x5W-LD-Ghv"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="8YI-9L-Egl" secondAttribute="bottom" id="Pn0-Ok-eg6"/>
+                                    <constraint firstAttribute="bottom" secondItem="8YI-9L-Egl" secondAttribute="bottom" constant="-54" id="Pn0-Ok-eg6"/>
                                     <constraint firstItem="8YI-9L-Egl" firstAttribute="top" secondItem="Fdq-2J-MwG" secondAttribute="top" id="YMM-k4-nUp"/>
                                     <constraint firstItem="8YI-9L-Egl" firstAttribute="leading" secondItem="Fdq-2J-MwG" secondAttribute="leading" id="Zpu-Uc-PVL"/>
                                     <constraint firstAttribute="trailing" secondItem="8YI-9L-Egl" secondAttribute="trailing" id="wp9-dJ-Tc9"/>
@@ -2001,7 +2180,7 @@ Nasal: congestion or sneezing
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="9z2-Q6-nJg"/>
-                    <size key="freeformSize" width="428" height="3016"/>
+                    <size key="freeformSize" width="428" height="4000"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wtm-9i-gfM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2122,8 +2301,8 @@ Nasal: congestion or sneezing
                                     <segue destination="gDp-xv-IST" kind="show" id="gCC-f5-ldZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ljv-93-aZJ">
-                                <rect key="frame" x="126" y="487" width="177" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ljv-93-aZJ">
+                                <rect key="frame" x="125.66666666666669" y="361" width="177" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Common Vaccine FAQS"/>
                                 <connections>
